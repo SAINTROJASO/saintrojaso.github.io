@@ -1,1 +1,7 @@
+# Foundations
 
+This chapter introduces the foundations of statistics.
+
+## What is statistics?
+
+Statistics is a set of methods for organizing, describing, analyzing, and interpreting data.
