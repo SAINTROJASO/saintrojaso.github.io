@@ -1,1 +1,7 @@
+# Probability
 
+This chapter introduces probability.
+
+## What is probability?
+
+Probability describes how likely an event is to occur.
