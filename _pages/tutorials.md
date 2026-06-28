@@ -1,6 +1,7 @@
 ---
 title: "Tutorials"
 permalink: /tutorials/
+layout: single
 author_profile: true
 ---
 
@@ -8,11 +9,8 @@ Welcome to my collection of tutorials. I will try my best to write easy and comp
 
 ## Statistics
 
-- [Foundations](/tutorials/statistics/foundations/)
-- [Probability](/tutorials/statistics/probability/)
-- [Regression](/tutorials/statistics/regression/)
+- [Open Statistics Tutorial](/tutorials/statistics/)
 
 ## How to Model
 
-- Basics
-- Chapter One
+- Coming soon
