@@ -4,8 +4,6 @@ permalink: /tutorials/
 author_profile: true
 ---
 
-# Tutorials
-
 Welcome to my collection of tutorials.
 
 ## Statistics
