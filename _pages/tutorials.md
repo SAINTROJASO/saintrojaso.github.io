@@ -8,9 +8,9 @@ Welcome to my collection of tutorials. I will try my best to write easy and comp
 
 ## Statistics
 
-- Foundations
-- Probability
-- Regression
+- [Foundations](/tutorials/statistics/foundations/)
+- [Probability](/tutorials/statistics/probability/)
+- [Regression](/tutorials/statistics/regression/)
 
 ## How to Model
 
