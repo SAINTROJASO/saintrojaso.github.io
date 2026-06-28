@@ -1,1 +1,11 @@
+---
+title: "Statistics Tutorial"
+author: "Santiago Rojas"
+site: bookdown::bookdown_site
+---
 
+# Welcome {-}
+
+Welcome to my Statistics tutorial.
+
+This tutorial includes foundations, probability, and regression.
