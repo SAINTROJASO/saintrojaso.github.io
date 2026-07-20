@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>3 Create a Scene | Interactive Training Tutorial</title>
+  <meta name="description" content="3 Create a Scene | Interactive Training Tutorial" />
+  <meta name="generator" content="bookdown 0.47 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="3 Create a Scene | Interactive Training Tutorial" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="3 Create a Scene | Interactive Training Tutorial" />
+  
+  
+  
+
+<meta name="author" content="Santiago Rojas &amp; Garrett Woodhouse" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="design-training-plan.html"/>
+
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Training Tutorial</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Welcome</a></li>
+<li class="chapter" data-level="1" data-path="setup-programs.html"><a href="setup-programs.html"><i class="fa fa-check"></i><b>1</b> Setup Programs</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="setup-programs.html"><a href="setup-programs.html#install-unity"><i class="fa fa-check"></i><b>1.1</b> Install Unity</a>
+<ul>
+<li class="chapter" data-level="1.1.1" data-path="setup-programs.html"><a href="setup-programs.html#step-1-create-a-unity-account"><i class="fa fa-check"></i><b>1.1.1</b> Step 1: Create a Unity account</a></li>
+<li class="chapter" data-level="1.1.2" data-path="setup-programs.html"><a href="setup-programs.html#step-2-download-unity-hub"><i class="fa fa-check"></i><b>1.1.2</b> Step 2: Download Unity Hub</a></li>
+<li class="chapter" data-level="1.1.3" data-path="setup-programs.html"><a href="setup-programs.html#step-3-install-unity"><i class="fa fa-check"></i><b>1.1.3</b> Step 3: Install Unity</a></li>
+</ul></li>
+<li class="chapter" data-level="1.2" data-path="setup-programs.html"><a href="setup-programs.html#install-meta-link"><i class="fa fa-check"></i><b>1.2</b> Install Meta Link</a>
+<ul>
+<li class="chapter" data-level="1.2.1" data-path="setup-programs.html"><a href="setup-programs.html#step-1-download-meta-link"><i class="fa fa-check"></i><b>1.2.1</b> Step 1: Download Meta Link</a></li>
+<li class="chapter" data-level="1.2.2" data-path="setup-programs.html"><a href="setup-programs.html#step-2-install-the-program"><i class="fa fa-check"></i><b>1.2.2</b> Step 2: Install the program</a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="setup-programs.html"><a href="setup-programs.html#verify-the-installation"><i class="fa fa-check"></i><b>1.3</b> Verify the Installation</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="design-training-plan.html"><a href="design-training-plan.html"><i class="fa fa-check"></i><b>2</b> Design the Training Plan</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="design-training-plan.html"><a href="design-training-plan.html#step-1-select-the-video-format"><i class="fa fa-check"></i><b>2.1</b> Step 1: Select the Video Format</a>
+<ul>
+<li class="chapter" data-level="2.1.1" data-path="design-training-plan.html"><a href="design-training-plan.html#option-1-continuous-video-with-embedded-questions"><i class="fa fa-check"></i><b>2.1.1</b> Option 1: Continuous Video With Embedded Questions</a></li>
+<li class="chapter" data-level="2.1.2" data-path="design-training-plan.html"><a href="design-training-plan.html#option-2-branching-video-with-different-outcomes"><i class="fa fa-check"></i><b>2.1.2</b> Option 2: Branching Video With Different Outcomes</a></li>
+<li class="chapter" data-level="2.1.3" data-path="design-training-plan.html"><a href="design-training-plan.html#video-format-comparison"><i class="fa fa-check"></i><b>2.1.3</b> Video Format Comparison</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="design-training-plan.html"><a href="design-training-plan.html#step-2-prepare-the-questions"><i class="fa fa-check"></i><b>2.2</b> Step 2: Prepare the Questions</a></li>
+<li class="chapter" data-level="2.3" data-path="design-training-plan.html"><a href="design-training-plan.html#step-3-prepare-the-instructions"><i class="fa fa-check"></i><b>2.3</b> Step 3: Prepare the Instructions</a></li>
+<li class="chapter" data-level="2.4" data-path="design-training-plan.html"><a href="design-training-plan.html#step-4-prepare-the-feedback"><i class="fa fa-check"></i><b>2.4</b> Step 4: Prepare the Feedback</a>
+<ul>
+<li class="chapter" data-level="2.4.1" data-path="design-training-plan.html"><a href="design-training-plan.html#correct-answer-feedback"><i class="fa fa-check"></i><b>2.4.1</b> Correct-Answer Feedback</a></li>
+<li class="chapter" data-level="2.4.2" data-path="design-training-plan.html"><a href="design-training-plan.html#incorrect-answer-feedback"><i class="fa fa-check"></i><b>2.4.2</b> Incorrect-Answer Feedback</a></li>
+</ul></li>
+<li class="chapter" data-level="2.5" data-path="design-training-plan.html"><a href="design-training-plan.html#step-5-identify-when-each-element-will-appear"><i class="fa fa-check"></i><b>2.5</b> Step 5: Identify When Each Element Will Appear</a>
+<ul>
+<li class="chapter" data-level="2.5.1" data-path="design-training-plan.html"><a href="design-training-plan.html#example-timeline"><i class="fa fa-check"></i><b>2.5.1</b> Example Timeline</a></li>
+</ul></li>
+<li class="chapter" data-level="2.6" data-path="design-training-plan.html"><a href="design-training-plan.html#step-6-install-unity-and-unity-hub"><i class="fa fa-check"></i><b>2.6</b> Step 6: Install Unity and Unity Hub</a></li>
+<li class="chapter" data-level="2.7" data-path="design-training-plan.html"><a href="design-training-plan.html#step-7-save-the-project-template"><i class="fa fa-check"></i><b>2.7</b> Step 7: Save the Project Template</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="create-a-scene.html"><a href="create-a-scene.html"><i class="fa fa-check"></i><b>3</b> Create a Scene</a>
+<ul>
+<li class="chapter" data-level="" data-path="create-a-scene.html"><a href="create-a-scene.html#step-1-import-the-videos-into-unity"><i class="fa fa-check"></i>Step 1: Import the Videos into Unity</a></li>
+<li class="chapter" data-level="" data-path="create-a-scene.html"><a href="create-a-scene.html#step-2-create-a-new-scene"><i class="fa fa-check"></i>Step 2: Create a New Scene</a></li>
+<li class="chapter" data-level="" data-path="create-a-scene.html"><a href="create-a-scene.html#step-3-add-a-video-to-the-scene"><i class="fa fa-check"></i>Step 3: Add a Video to the Scene</a></li>
+<li class="chapter" data-level="" data-path="create-a-scene.html"><a href="create-a-scene.html#step-4-set-up-the-questions"><i class="fa fa-check"></i>Step 4: Set up the Questions</a>
+<ul>
+<li class="chapter" data-level="3.0.1" data-path="create-a-scene.html"><a href="create-a-scene.html#open-the-dynamic-sequence-setup"><i class="fa fa-check"></i><b>3.0.1</b> Open the Dynamic Sequence Setup</a></li>
+<li class="chapter" data-level="3.0.2" data-path="create-a-scene.html"><a href="create-a-scene.html#verify-that-the-scenes-are-connected"><i class="fa fa-check"></i><b>3.0.2</b> Verify that the scenes are connected</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="create-a-scene.html"><a href="create-a-scene.html#step-5-verify-the-question-order"><i class="fa fa-check"></i>Step 5: Verify the Question Order</a></li>
+<li class="chapter" data-level="" data-path="create-a-scene.html"><a href="create-a-scene.html#step-6-edit-the-beginning-screen"><i class="fa fa-check"></i>Step 6: Edit the Beginning Screen</a></li>
+<li class="chapter" data-level="" data-path="create-a-scene.html"><a href="create-a-scene.html#step-7-edit-the-end-screen"><i class="fa fa-check"></i>Step 7: Edit the End Screen</a>
+<ul>
+<li class="chapter" data-level="3.0.3" data-path="create-a-scene.html"><a href="create-a-scene.html#configure-the-final-scene"><i class="fa fa-check"></i><b>3.0.3</b> Configure the Final Scene</a></li>
+</ul></li>
+<li class="chapter" data-level="3.1" data-path="create-a-scene.html"><a href="create-a-scene.html#step-8-add-the-scene-to-the-build-profile"><i class="fa fa-check"></i><b>3.1</b> Step 8: Add the Scene to the Build Profile</a></li>
+<li class="chapter" data-level="3.2" data-path="create-a-scene.html"><a href="create-a-scene.html#step-9-save-the-scene"><i class="fa fa-check"></i><b>3.2</b> Step 9: Save the Scene</a></li>
+<li class="chapter" data-level="3.3" data-path="create-a-scene.html"><a href="create-a-scene.html#scene-configuration-checklist"><i class="fa fa-check"></i><b>3.3</b> Scene Configuration Checklist</a></li>
+</ul></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Interactive Training Tutorial</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="create-a-scene" class="section level1 hasAnchor" number="3">
+<h1><span class="header-section-number">3</span> Create a Scene<a href="create-a-scene.html#create-a-scene" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>This chapter explains how to create and configure a scene using the Unity project template <strong>[Project Template Name]</strong>.</p>
+<p>In this project template, each scene corresponds to one video. For example, a training containing three videos will normally require three separate scenes.</p>
+<hr />
+<div id="step-1-import-the-videos-into-unity" class="section level2 unnumbered hasAnchor">
+<h2>Step 1: Import the Videos into Unity<a href="create-a-scene.html#step-1-import-the-videos-into-unity" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Begin by importing the videos that you plan to use in the training.</p>
+<ol style="list-style-type: decimal">
+<li>Locate the <strong>Project</strong> panel in Unity.</li>
+<li>Open the <code>2Project_Videos</code> folder.</li>
+<li>Drag the video files from your computer into the <code>Project_Videos</code> folder.</li>
+<li>Wait for Unity to finish importing the files.</li>
+</ol>
+<blockquote>
+<p><strong>Tip:</strong> Give each video a short, descriptive filename that reflects its position in the training sequence.</p>
+</blockquote>
+<p>For example:</p>
+<pre class="text"><code>01-introduction.mp4
+02-demonstration.mp4
+03-practice.mp4</code></pre>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:import-project-image"></span>
+<img src="images/Step_1.png" alt="Importing the project into Unity Hub." width="100%" />
+<p class="caption">
+Figure 3.1: Importing the project into Unity Hub.
+</p>
+</div>
+<hr />
+</div>
+<div id="step-2-create-a-new-scene" class="section level2 unnumbered hasAnchor">
+<h2>Step 2: Create a New Scene<a href="create-a-scene.html#step-2-create-a-new-scene" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Create a new scene for each video in the training.</p>
+<ol style="list-style-type: decimal">
+<li><p>In the <strong>Project</strong> panel, open the following path:</p>
+<p><code>Assets &gt; 1_Scenes &gt; Project_Scenes</code></p></li>
+</ol>
+<blockquote>
+<p><strong>Important:</strong> Take into account that each scene represents one video, so if you have multiple scenes, you will have to create multiple scenes.</p>
+</blockquote>
+<ol start="2" style="list-style-type: decimal">
+<li>In the right side you will see the following scenes 0_STARTING SCENE, 1_MyScene and LAST SCENE</li>
+<li>To create a new scene right click and change the name to 1_Scene_Name</li>
+</ol>
+<p>Use a sequence number and a descriptive title to keep the scenes organized.</p>
+<p>For example:</p>
+<pre class="text"><code>01_Introduction
+02_Demonstration
+03_Practice</code></pre>
+<ol start="4" style="list-style-type: decimal">
+<li>Write the instructions you want your participants to see at the beginning of the training. In the <strong><em>Hierarchy</em></strong> panel open the path: <code>SCENE START &gt; TRAINING_INTRODUCTION</code></li>
+</ol>
+<hr />
+</div>
+<div id="step-3-add-a-video-to-the-scene" class="section level2 unnumbered hasAnchor">
+<h2>Step 3: Add a Video to the Scene<a href="create-a-scene.html#step-3-add-a-video-to-the-scene" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>After creating the scene, assign the corresponding video to it.</p>
+<ol style="list-style-type: decimal">
+<li>Find the scene you want to upload the video on
+<code>Assets &gt; 1_Scenes &gt; Project_Scenes &gt; [YOUR SCENE NAME]</code></li>
+<li>Double-click the scene you want to upload the videos.</li>
+<li>Confirm that the correct scene name appears at the top of the <strong>Hierarchy</strong> panel.</li>
+</ol>
+<blockquote>
+<p><strong>Important:</strong> It is not enough to click once on the scene. Unity has to open the object scene. Always make sure to double click.</p>
+</blockquote>
+<ol start="3" style="list-style-type: decimal">
+<li><p>In the <strong>Hierarchy</strong> panel, open the following path:</p>
+<p><code>SceneStart &gt; MENU &gt; VIDEO PLAYER</code></p></li>
+<li><p>Select <strong>VIDEO PLAYER</strong>.</p></li>
+<li><p>Locate the <strong>Inspector</strong> panel.</p></li>
+<li><p>Find the <strong>Video Player</strong> subsection.</p></li>
+<li><p>Locate the <strong>Video Clip</strong> field.</p></li>
+<li><p>Drag the appropriate video from the <code>1_Project_Videos</code> folder into the <strong>Video Clip</strong> field.</p></li>
+</ol>
+<blockquote>
+<p><strong>Tip:</strong> Remember that you can find the videos in the <strong><em>Project</em></strong> panel in <code>Assets &gt; 1_Scenes &gt; Project_Scenes</code></p>
+</blockquote>
+<ol start="9" style="list-style-type: decimal">
+<li>Play the scene by double clicking on it to confirm that the correct video appears.</li>
+<li>Save the scene by pressing <code>Ctrl + S</code>.</li>
+</ol>
+<hr />
+</div>
+<div id="step-4-set-up-the-questions" class="section level2 unnumbered hasAnchor">
+<h2>Step 4: Set up the Questions<a href="create-a-scene.html#step-4-set-up-the-questions" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<blockquote>
+<p><strong>Note:</strong> In this section you will have to set up content of the instructions for each question, the content of each question, the content of the multiple answers for each questions, which answer will be considered correct, the content of the correct feedback (i.e., when answering correct) and corrective feedback (i.e., when answering incorrect)</p>
+</blockquote>
+<ol style="list-style-type: decimal">
+<li>In the <strong><em>Project</em></strong> panel locate <code>Assets &gt; Prefabs</code></li>
+<li>Depending on the number of multiple answers you want Drag <em>FourMultipleAnswers</em> or <em>TwoMultipleAnswers</em> to the <strong><em>Hierarchy</em></strong> panel in the gray area</li>
+</ol>
+<blockquote>
+<p><strong>Note:</strong> Make sure that it appears under SCENE START and not in one of is folders, as shown in the image. If it appears under SCENE START simply delete it and drag it again.</p>
+</blockquote>
+<ol start="3" style="list-style-type: decimal">
+<li><p>Select <em>FourMultipleAnswers</em> or <em>TwoMultipleAnswers</em> and in the <strong><em>Inspector</em></strong> panel go the section <strong><em>EDIT EVERYTHING BELOW THIS</em></strong>:</p>
+<ul>
+<li><strong>3.1.</strong> Edit the content of the instruction text: change the text that says <code>Write the content of the instructions here</code></li>
+<li><strong>3.2.</strong> Edit the content of the question: change the text that says <code>Write the content of the question here</code></li>
+<li><strong>3.3.</strong> Edit the content of the multiple answers: write each answer right in the Answer Choice 1, … Each answer choice box corresponds to one of the answers.</li>
+<li><strong>3.4.</strong> Edit the content of the correct feedback: change the text that says <code>Write your correct feedback here</code></li>
+<li><strong>3.5.</strong> Edit the content of the corrective feedback: change the text that says <code>Write your corrective feedback here</code></li>
+</ul></li>
+<li><p>To choose which answer will be considered as correct, write the number of the answer in the <code>Conrrect Answer Choice</code>.</p></li>
+<li><p>Repeat steps 3 and 4 for each question you have.</p></li>
+</ol>
+<blockquote>
+<p><strong>Note:</strong> You have the option of providing more detailes corrective feedback if the participant answers wrong multiple times the same question. You can write more detailed feedback on the subsections <code>Corrective Feedback Text  2</code>, <code>Corrective Feedback Tex 3</code> and <code>Corrective Feedback Tex 4</code>.</p>
+</blockquote>
+<p>Use the <strong>Scene Manager</strong> to determine when questions will appear during the video.</p>
+<div id="open-the-dynamic-sequence-setup" class="section level3 hasAnchor" number="3.0.1">
+<h3><span class="header-section-number">3.0.1</span> Open the Dynamic Sequence Setup<a href="create-a-scene.html#open-the-dynamic-sequence-setup" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ol style="list-style-type: decimal">
+<li><p>In the <strong>Hierarchy</strong> panel, select <strong><em>SCENCE MANAGER</em></strong> in the the following path:</p>
+<p><code>SCENE START &gt; MENU &gt; SCENE MANAGER</code></p></li>
+<li><p>Go to the <strong>Inspector</strong> panel, locate <strong>Dynamic Sequence Setup</strong>.</p></li>
+</ol>
+<p>You will see two main lists:</p>
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>List</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Question Canvases</strong></td>
+<td>Determines which question appears at each pause. In other words, the order of questions</td>
+</tr>
+<tr class="even">
+<td><strong>Pause At</strong></td>
+<td>Determines when the video pauses for each question om seconds</td>
+</tr>
+</tbody>
+</table>
+<div id="configure-question-canvases" class="section level4 hasAnchor" number="3.0.1.1">
+<h4><span class="header-section-number">3.0.1.1</span> Configure Question Canvases<a href="create-a-scene.html#configure-question-canvases" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ol start="3" style="list-style-type: decimal">
+<li>Drag the questions objects that you have from the <strong><em>Hierarchy</em></strong> panel to the Question Canvases</li>
+<li>Write the time in the video where the questions should appear. Take into account that the numbers are in second, and they should correspond to the seconds in the Video.</li>
+</ol>
+</div>
+<div id="configure-the-pause-times" class="section level4 hasAnchor" number="3.0.1.2">
+<h4><span class="header-section-number">3.0.1.2</span> Configure the Pause Times<a href="create-a-scene.html#configure-the-pause-times" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<ol style="list-style-type: decimal">
+<li>Set the number of items equal to the number of questions in the scene.</li>
+<li>Enter the video time at which each question should appear.</li>
+<li>Arrange the timestamps in chronological order.</li>
+</ol>
+<p>For example:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="right">Item</th>
+<th align="right">Pause time</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">0</td>
+<td align="right">60 seconds</td>
+</tr>
+<tr class="even">
+<td align="right">1</td>
+<td align="right">120 seconds</td>
+</tr>
+<tr class="odd">
+<td align="right">2</td>
+<td align="right">180 seconds</td>
+</tr>
+</tbody>
+</table>
+<p>In this example, the questions will appear at 1:00, 2:00, and 3:00 minutes.</p>
+</div>
+</div>
+<div id="verify-that-the-scenes-are-connected" class="section level3 hasAnchor" number="3.0.2">
+<h3><span class="header-section-number">3.0.2</span> Verify that the scenes are connected<a href="create-a-scene.html#verify-that-the-scenes-are-connected" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ol style="list-style-type: decimal">
+<li>Open the scenes in the <strong><em>Project</em></strong> panel <code>ASSETS &gt; 1_SCENES &gt; PROJECT SCENES</code></li>
+<li>Leave the scenes open</li>
+<li>In the <strong><em>Hierarchy</em></strong> panel, in the subsection <strong>Scence Settings</strong>write the name of the scene that will appear after the video ends. If it is the end of the tutorial, write <code>LAST SCENE</code>, so that it connects to the last scene of the project.</li>
+</ol>
+<hr />
+</div>
+</div>
+<div id="step-5-verify-the-question-order" class="section level2 unnumbered hasAnchor">
+<h2>Step 5: Verify the Question Order<a href="create-a-scene.html#step-5-verify-the-question-order" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Before continuing, confirm that:</p>
+<ul>
+<li>Every pause time has a corresponding question canvas.</li>
+<li>The pause times are arranged chronologically.</li>
+<li>The question canvases are arranged in the intended order.</li>
+<li>The number of items in both lists is identical.</li>
+<li>Each question is associated with the correct point in the video.</li>
+</ul>
+<blockquote>
+<p><strong>Warning:</strong> Questions may appear at the wrong times when the order of the question canvases does not match the order of the pause times.</p>
+</blockquote>
+<hr />
+</div>
+<div id="step-6-edit-the-beginning-screen" class="section level2 unnumbered hasAnchor">
+<h2>Step 6: Edit the Beginning Screen<a href="create-a-scene.html#step-6-edit-the-beginning-screen" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The beginning screen introduces the training before the video starts.</p>
+<ol style="list-style-type: decimal">
+<li>Locate <strong>BeginSceneCanvas</strong> in the <strong>Hierarchy</strong> panel.</li>
+<li>Expand the canvas to locate its text elements.</li>
+<li>Select the header text.</li>
+<li>In the <strong>Inspector</strong> panel, replace the existing text with the introduction for your training.</li>
+<li>Save the scene.</li>
+</ol>
+<p>For example:</p>
+<blockquote>
+<p>Welcome to the caregiver training. In this module, you will observe a caregiver responding to a child during a daily routine.</p>
+</blockquote>
+<p>Keep the introduction:</p>
+<ul>
+<li>Brief</li>
+<li>Easy to read</li>
+<li>Relevant to the video</li>
+<li>Consistent with the purpose of the training module</li>
+</ul>
+<hr />
+</div>
+<div id="step-7-edit-the-end-screen" class="section level2 unnumbered hasAnchor">
+<h2>Step 7: Edit the End Screen<a href="create-a-scene.html#step-7-edit-the-end-screen" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The end screen determines which scene will open after the current scene is completed.</p>
+<ol style="list-style-type: decimal">
+<li>Locate <strong>End Screen</strong> inside the <strong>SceneStart</strong> prefab.</li>
+<li>Select the field that identifies the next scene.</li>
+<li>Enter the exact name of the scene that should open next.</li>
+</ol>
+<p>For example:</p>
+<pre class="text"><code>02 Demonstration</code></pre>
+<blockquote>
+<p><strong>Important:</strong> The scene name must be written exactly as it appears in the Unity scene list. Differences in capitalization, spacing, or punctuation may prevent Unity from opening the scene.</p>
+</blockquote>
+<div id="configure-the-final-scene" class="section level3 hasAnchor" number="3.0.3">
+<h3><span class="header-section-number">3.0.3</span> Configure the Final Scene<a href="create-a-scene.html#configure-the-final-scene" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>When the current scene is the final scene in the training, enter:</p>
+<pre class="text"><code>Last Scene</code></pre>
+<p>Make sure that <code>Last Scene</code> matches the text expected by the project template exactly.</p>
+<hr />
+</div>
+</div>
+<div id="step-8-add-the-scene-to-the-build-profile" class="section level2 hasAnchor" number="3.1">
+<h2><span class="header-section-number">3.1</span> Step 8: Add the Scene to the Build Profile<a href="create-a-scene.html#step-8-add-the-scene-to-the-build-profile" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Every new scene must be added to the Unity build profile.</p>
+<ol style="list-style-type: decimal">
+<li>Open the scene that you want to add.</li>
+<li>Select <strong>File</strong> from the Unity menu.</li>
+<li>Select <strong>Build Profiles</strong>.</li>
+<li>Click <strong>Open Scene List</strong>.</li>
+<li>Click <strong>Add Open Scenes</strong>.</li>
+<li>Confirm that the scene appears in the scene list.</li>
+</ol>
+<p>Repeat this process whenever you create a new scene.</p>
+<blockquote>
+<p><strong>Important:</strong> A scene that is not included in the build profile may work inside the Unity Editor but fail to open in the completed application.</p>
+</blockquote>
+<hr />
+</div>
+<div id="step-9-save-the-scene" class="section level2 hasAnchor" number="3.2">
+<h2><span class="header-section-number">3.2</span> Step 9: Save the Scene<a href="create-a-scene.html#step-9-save-the-scene" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Save the scene after making any changes by pressing:</p>
+<pre class="text"><code>Ctrl + S</code></pre>
+<p>You should save the scene after:</p>
+<ul>
+<li>Assigning a video</li>
+<li>Changing question timestamps</li>
+<li>Adding question canvases</li>
+<li>Editing the beginning screen</li>
+<li>Editing the end screen</li>
+<li>Adding the scene to the build profile</li>
+</ul>
+<hr />
+</div>
+<div id="scene-configuration-checklist" class="section level2 hasAnchor" number="3.3">
+<h2><span class="header-section-number">3.3</span> Scene Configuration Checklist<a href="create-a-scene.html#scene-configuration-checklist" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Before moving to the next scene, confirm that:</p>
+<ul class="task-list">
+<li><label><input type="checkbox" />The scene has a clear and unique name.</label></li>
+<li><label><input type="checkbox" />The correct video has been assigned.</label></li>
+<li><label><input type="checkbox" />The video plays correctly.</label></li>
+<li><label><input type="checkbox" />The number of pause times matches the number of questions.</label></li>
+<li><label><input type="checkbox" />Each question canvas is in the correct position.</label></li>
+<li><label><input type="checkbox" />The beginning-screen text has been updated.</label></li>
+<li><label><input type="checkbox" />The next-scene name has been entered correctly.</label></li>
+<li><label><input type="checkbox" />The scene has been added to the build profile.</label></li>
+<li><label><input type="checkbox" />The scene has been saved.</label></li>
+</ul>
+<p>After completing this checklist, repeat the process for the next video in the training.</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="design-training-plan.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+  "sharing": {
+    "github": false,
+    "facebook": false,
+    "twitter": false,
+    "linkedin": false,
+    "weibo": false,
+    "instapaper": false,
+    "vk": false,
+    "whatsapp": false,
+    "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+  },
+  "fontsettings": {
+    "theme": "white",
+    "family": "sans",
+    "size": 2
+  },
+  "edit": {
+    "link": null,
+    "text": null
+  },
+  "history": {
+    "link": null,
+    "text": null
+  },
+  "view": {
+    "link": null,
+    "text": null
+  },
+  "download": null,
+  "search": {
+    "engine": "fuse",
+    "options": null
+  },
+  "toc": {
+    "collapse": "section"
+  }
+});
+});
+</script>
+
+</body>
+
+</html>
