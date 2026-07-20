@@ -1,0 +1,68 @@
+# Setup Programs {#setup-programs}
+
+Before creating an interactive training, install and configure the required software:
+
+- **Unity Hub and Unity Editor**
+- **Meta Link**
+
+Complete each section below before continuing to the next chapter.
+
+---
+
+## Install Unity
+
+Unity will be used to create and edit the interactive training project.
+
+### Step 1: Create a Unity account
+
+Create a free Unity account, or sign in if you already have one.
+
+### Step 2: Download Unity Hub
+
+Open the link below and download **Unity Hub**:
+
+[Download Unity Personal](https://unity.com/products/unity-personal)
+
+### Step 3: Install Unity
+
+1. Open the Unity Hub installer.
+2. Follow the installation instructions.
+3. Sign in with your Unity account.
+4. Use Unity Hub to install the required version of the Unity Editor.
+
+> **Note:** Unity Hub manages your Unity projects and installed Unity Editor versions.
+
+---
+
+## Install Meta Link
+
+Meta Link allows your computer to connect to a compatible Meta Quest headset.
+
+### Step 1: Download Meta Link
+
+Open the installation page below:
+
+[Download and install Meta Link](https://www.meta.com/help/quest/1517439565442928/)
+
+### Step 2: Install the program
+
+1. Download the installer.
+2. Open the downloaded file.
+3. Follow the installation instructions.
+4. Sign in with your Meta account when prompted.
+
+> **Important:** Do not connect the headset until the installation process asks you to do so.
+
+---
+
+## Verify the Installation
+
+Before continuing, confirm that both programs work correctly.
+
+- [ ]   Unity Hub opens without displaying an error.
+- [ ]   You can sign in to your Unity account.
+- [ ]   At least one Unity Editor version is installed.
+- [ ]   The Meta Link application opens correctly.
+- [ ]   Your Meta Quest headset is recognized by the computer.
+
+After completing this checklist, continue to the next chapter.

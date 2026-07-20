@@ -1,0 +1,118 @@
+/* Styles the caution, important, note, tip, and warning callout boxes */
+.rmdcaution, .rmdimportant, .rmdnote, .rmdtip, .rmdwarning {
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  background: #f5f5f5 5px center/3em no-repeat;
+}
+
+/* Adds the caution icon */
+.rmdcaution {
+  background-image: url("../images/caution.png");
+}
+
+/* Adds the important icon */
+.rmdimportant {
+  background-image: url("../images/important.png");
+}
+
+/* Adds the note icon */
+.rmdnote {
+  background-image: url("../images/note.png");
+}
+
+/* Adds the tip icon */
+.rmdtip {
+  background-image: url("../images/tip.png");
+}
+
+/* Adds the warning icon */
+.rmdwarning {
+  background-image: url("../images/warning.png");
+}
+
+/* Styles image and figure captions */
+p.caption {
+  color: #777;
+  margin-top: 10px;
+}
+
+/* Allows inline code to wrap with the surrounding paragraph */
+p code {
+  white-space: inherit;
+}
+
+/* Controls word wrapping inside code blocks */
+pre {
+  word-break: normal;
+  word-wrap: normal;
+}
+
+/* Makes code inside code blocks follow the wrapping settings above */
+pre code {
+  white-space: inherit;
+}
+
+/* Right-aligns paragraphs assigned the flushright class */
+p.flushright {
+  text-align: right;
+}
+
+/* Right-aligns the last paragraph inside a block quote */
+blockquote > p:last-child {
+  text-align: right;
+}
+
+/* Keeps the first paragraph of a block quote normally aligned */
+blockquote > p:first-child {
+  text-align: inherit;
+}
+
+/* Styles the numbers shown before section headings */
+.header-section-number {
+  padding-right: .2em;
+  font-weight: 500;
+}
+
+/* Adds a thick underline beneath chapter numbers */
+.level1 .header-section-number {
+  display: inline-block;
+  border-bottom: 3px solid;
+}
+
+/* Adds a thin line beneath chapter headings */
+.level1 h1 {
+  border-bottom: 1px solid;
+}
+
+/* Uses normal font weight for all headings */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+/* Makes the main book title bold */
+h1.title {
+  font-weight: 700;
+}
+
+/* Displays text assigned the smallcaps class in small capital letters */
+.smallcaps {
+  font-variant: small-caps;
+}
+
+/* Controls the thickness of bold text within the book content */
+.book .book-body .page-wrapper .page-inner section.normal strong {
+  font-weight: 600;
+}
+
+/* Makes the chapter content wider and reduces the side margins */
+.book .book-body .page-wrapper .page-inner,
+.book .book-body .page-wrapper .page-inner section.normal {
+  max-width: 1200px !important;
+  width: 100% !important;
+  box-sizing: border-box;
+}
+
+.book .book-body .page-wrapper .page-inner {
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+}

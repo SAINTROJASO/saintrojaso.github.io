@@ -1,3 +1,17 @@
-# Interactive Training Tutorial
+---
+title: "Interactive Training Tutorial"
+author: "Santiago Rojas & Garrett Woodhouse"
+site: bookdown::bookdown_site
+documentclass: book
+---
 
-This is the tutorial for creating interactive video trainings.
+# Welcome {-}
+
+Welcome to the tutorial to Build an Interactive Video Training.
+
+Use the menu on the left to navigate through the different steps.
+
+If you have any questions please contact me via email:
+
+santiago.rojasotero@usu.edu
+

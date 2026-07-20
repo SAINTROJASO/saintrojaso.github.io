@@ -1,0 +1,12 @@
+bookdown::gitbook:
+  css: style.css
+  split_by: chapter
+  config:
+    toc:
+      collapse: section
+      before: |
+        <li><a href="./">Training Tutorial</a></li>
+    download: false
+    sharing:
+      facebook: false
+      twitter: false

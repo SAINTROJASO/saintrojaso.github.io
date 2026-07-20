@@ -1,0 +1,14 @@
+book_filename: "Interactive Training Tutorial"
+output_dir: "docs"
+
+rmd_files:
+  - "index.Rmd"
+  - "01-setup-programs.Rmd"
+  - "02-design-training-plan.Rmd"
+  - "03-create-a-scene.Rmd"
+
+delete_merged_file: true
+
+language:
+  ui:
+    chapter_name: ""
