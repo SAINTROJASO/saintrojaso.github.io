@@ -1,0 +1,3 @@
+# Interactive Training Tutorial
+
+This is the tutorial for creating interactive video trainings.
