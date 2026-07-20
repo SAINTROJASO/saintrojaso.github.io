@@ -11,6 +11,10 @@ Welcome to my collection of tutorials. I will try my best to write easy and comp
 
 - [Open Statistics Tutorial](/tutorials/statistics/)
 
+## Interactive Training
+
+- [Open Interactive Training Tutorial](/tutorials/interactive-training/)
+
 ## How to Model
 
 - Coming soon
