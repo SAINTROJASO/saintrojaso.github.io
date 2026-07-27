@@ -31,3 +31,4 @@ configure-the-final-scene
 step-8-add-the-scene-to-the-build-profile
 step-9-save-the-scene
 scene-configuration-checklist
+write-the-instructions-in-the-text-box-and-save-the-file-i.e.-ctrl-s

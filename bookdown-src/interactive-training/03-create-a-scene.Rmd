@@ -1,8 +1,8 @@
 # Create a Scene {#create-a-scene}
 
-This chapter explains how to create and configure a scene using the Unity project template **[Project Template Name]**.
+This chapter explains how to create and configure a scene using the **[Project Template Name]** Unity project template.
 
-In this project template, each scene corresponds to one video. For example, a training containing three videos will normally require three separate scenes.
+Since this may be your first time using Unity, each step includes a **navigation path** showing exactly where to navigate in Unity's interface.
 
 ---
 
@@ -10,19 +10,24 @@ In this project template, each scene corresponds to one video. For example, a tr
 
 Begin by importing the videos that you plan to use in the training.
 
-1. Locate the **Project** panel in Unity.
-2. Open the `2Project_Videos` folder.
-3. Drag the video files from your computer into the `Project_Videos` folder.
-4. Wait for Unity to finish importing the files.
+1. Locate the **Project** panel and open the following path: 
 
-> **Tip:** Give each video a short, descriptive filename that reflects its position in the training sequence.
+<div align="center">
+`Assets > 1_Scenes > Project_Scenes`
+</div>
 
-For example:
+2. Drag the video files from your computer into the `2_Project_Videos` folder.
+3. Wait for Unity to finish importing each video.
+4. Rename each video.
+
+> **TIP:** Give each **video** a short, descriptive filename that reflects its position in the training sequence.
 
 ```text
-01-introduction.mp4
-02-demonstration.mp4
-03-practice.mp4
+For example:
+
+01_video_lunges_step_1.mp4
+02_video_lunges_step_2.mp4
+03_video_push_ups_step_1mp4
 ```
 
 ```{r import-project-image, echo=FALSE, out.width="100%", fig.align="center", fig.cap="Importing the project into Unity Hub."}
@@ -35,72 +40,103 @@ knitr::include_graphics("images/Step_1.png")
 
 Create a new scene for each video in the training.
 
-1. In the **Project** panel, open the following path:
+> **Important:** In this project template, each scene corresponds to one video — so the number of scenes must match the number of videos you imported. For example, a training with three videos will normally require three separate scenes.
 
-   `Assets > 1_Scenes > Project_Scenes`
+1. Locate the **Project** panel and open the following path:
 
-> **Important:** Take into account that each scene represents one video, so if you have multiple scenes, you will have to create multiple scenes. 
+<div align="center">
+`Assets > 1_Scenes > Project_Scenes`
+</div>
 
-2. In the right side you will see the following scenes 0_STARTING SCENE, 1_MyScene and LAST SCENE
-3. To create a new scene right click and change the name to 1_Scene_Name
+2. You should see the following pre-built scenes on the right side of the window: `0_STARTING SCENE`, `1_FIRST_SCENE`, and `LAST SCENE`.
+3. To create your first scene you will use the `1_FIRST_SCENE` as a template. Right-click in it and rename to your convenience. 
 
-Use a sequence number and a descriptive title to keep the scenes organized.
-
-For example:
+> **TIP:** Just like you did when you imported the videos, it is good practice to use a sequence number and a descriptive title to keep the scenes organized.
 
 ```text
-01_Introduction
-02_Demonstration
-03_Practice
+For example:
+
+01_scene_introduction
+02_scene_demonstration
+03_scene_practice
 ```
- 4. Write the instructions you want your participants to see at the beginning of the training. In the ***Hierarchy*** panel open the path: `SCENE START > TRAINING_INTRODUCTION`
+4. To write the instructions of the training (e.g., In this training you will be asked to complete ...) locate the **Hierarchy** panel and open the path: 
+ 
+<div align="center">
+`SCENE START > TRAINING_INTRODUCTION`
+</div>
+
+5. Write the instructions in the text box and save the file (i.e., Ctrl + S).
 
 ---
 
 ## Step 3: Add a Video to the Scene {-}
 
-After creating the scene, assign the corresponding video to it.
+Once you have renamed the scene, assign its corresponding video.
 
-1. Find the scene you want to upload the video on 
-  `Assets > 1_Scenes > Project_Scenes > [YOUR SCENE NAME]`
-2. Double-click the scene you want to upload the videos.
-2. Confirm that the correct scene name appears at the top of the **Hierarchy** panel.
+1. Locate the scene you want to add the video to, and double-click it to open it.
 
-> **Important:** It is not enough to click once on the scene. Unity has to open the object scene. Always make sure to double click. 
+> **Important:** Double-clicking is required to open a scene — a single click is not enough. To confirm a scene is open, check that its name matches the name shown at the top of the **Hierarchy** panel.
 
-3. In the **Hierarchy** panel, open the following path:
+2. In the **Hierarchy** panel, open the following path:
 
-   `SceneStart > MENU > VIDEO PLAYER`
+<div align="center">
 
-4. Select **VIDEO PLAYER**.
-5. Locate the **Inspector** panel.
-6. Find the **Video Player** subsection.
-7. Locate the **Video Clip** field.
-8. Drag the appropriate video from the `1_Project_Videos` folder into the **Video Clip** field.
+`SceneStart > MENU > VIDEO_PLAYER`
 
-> **Tip:** Remember that you can find the videos in the ***Project*** panel in `Assets > 1_Scenes > Project_Scenes`
+</div>
 
-9. Play the scene by double clicking on it to  confirm that the correct video appears.
-10. Save the scene by pressing `Ctrl + S`.
+3. Select **VIDEO_PLAYER**.
+4. In the **Inspector** panel, follow the path:
+
+<div align="center">
+
+`VIDEO_PLAYER > Video Clip`
+
+</div>
+
+5. Drag the video you want to use from the video folder into the **Video Clip** field.
+
+> **Tip:** You can find these in the **Project** panel:
+>
+> - **Scenes:** `Assets > 1_Scenes > Project_Scenes > [YOUR SCENE NAME]`
+> - **Videos:** `Assets > 1_Scenes > [VIDEO FOLDER NAME]`
+
+6. Confirm that the video appears by double-clicking on it
+7. Save the scene with `Ctrl + S`.
 
 ---
 
-## Step 4: Set up the Questions {-}
+## Step 4: Set Up the Questions {-}
 
-> **Note:** In this section you will have to set up content of the instructions for each question, the content of each question, the content of the multiple answers for each questions, which answer will be considered correct, the content of the correct feedback (i.e., when answering correct) and corrective feedback (i.e., when answering incorrect) 
+In this section, you will set up the following for the scene you just created:
 
-1. In the ***Project*** panel locate `Assets > Prefabs` 
-2. Depending on the number of multiple answers you want Drag *FourMultipleAnswers* or *TwoMultipleAnswers* to the ***Hierarchy*** panel in the gray area 
+- The instructions for each question
+- The content of each question
+- The content of the multiple-choice answers
+- Which answer is correct
+- The correct feedback (shown when the participant answers correctly)
+- The corrective feedback (shown when the participant answers incorrectly)
 
-> **Note:** Make sure that it appears under SCENE START and not in one of is folders, as shown in the image. If it appears under SCENE START simply delete it and drag it again. 
+1. Locate the **Project** panel and open the path:
 
-3. Select *FourMultipleAnswers* or *TwoMultipleAnswers* and in the ***Inspector*** panel go the section **_EDIT EVERYTHING BELOW THIS_**:
+<div align="center"> 
+`Assets > Prefabs` 
+</div>
 
-    - **3.1.** Edit the content of the instruction text: change the text that says `Write the content of the instructions here`
-    - **3.2.** Edit the content of the question: change the text that says `Write the content of the question here`
-    - **3.3.** Edit the content of the multiple answers: write each answer right in the Answer Choice 1, ... Each answer choice box corresponds to one of the answers. 
-    - **3.4.** Edit the content of the correct feedback: change the text that says `Write your correct feedback here`
-    - **3.5.** Edit the content of the corrective feedback: change the text that says `Write your corrective feedback here` 
+2. Depending on the number of answer choices you want, drag **FourMultipleAnswers** or **TwoMultipleAnswers** into the **Hierarchy** panel, into the gray area. You can add as many questions as you want per video.
+
+   For example, for a three-minute video with four questions — three with two answer choices and one with four answer choices — you would drag **TwoMultipleAnswers** three times and **FourMultipleAnswers** once into the **Hierarchy** panel.
+
+> **Note:** Make sure the prefab appears directly under `SCENE START`, and not nested inside one of its folders (see image below). If it appears in the wrong place, delete it (left-click it, then press Delete) and drag it again.
+
+3. Click the question prefab to select it, then locate the **Inspector** panel and its **EDIT EVERYTHING BELOW THIS** subsection:
+
+    - **3.1.**To edit the instruction text — replace `Write the content of the instructions here`.
+    - **3.2.**To edit the question text — replace `Write the content of the question here`.
+    - **3.3.**To edit the answer choices text — write each answer directly into its corresponding **Answer Choice** box (**Answer Choice 1**, **Answer Choice 2**, etc.).
+    - **3.4.**To edit the correct feedback text — replace `Write your correct feedback here`.
+    - **3.5.**To edit the corrective feedback text — replace `Write your corrective feedback here`.
 
 4. To choose which answer will be considered as correct, write the number of the answer in the `Conrrect Answer Choice`.
 5. Repeat steps 3 and 4 for each question you have. 
