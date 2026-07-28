@@ -1,4 +1,4 @@
-fig:import-project-image
+fig:project-videos-folder
 setup-programs
 install-unity
 step-1-create-a-unity-account
@@ -31,3 +31,10 @@ configure-the-final-scene
 step-8-add-the-scene-to-the-build-profile
 step-9-save-the-scene
 scene-configuration-checklist
+fig:step-1-2
+fig:step-1-1
+fig:step-2-1
+fig:step-2-2
+fig:step-2-3
+fig:step-2-4
+fig:step-1-3
