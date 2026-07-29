@@ -1,204 +1,227 @@
 # Design the Training Plan {#design-training-plan}
 
-Before opening Unity, prepare the structure and content of your interactive training. Planning the training in advance will make it easier to configure the project template and reduce errors during development.
+Before opening Unity, use the interactive planner below to prepare the structure and content of your training.
 
-This chapter will guide you through the following tasks:
+You can use the planner to:
 
-- Selecting the video format
-- Preparing the questions and answer options
-- Writing instructions and feedback
-- Identifying when each element will appear
-- Opening the project template in Unity
-- Completing the planning documents
+- Identify the training format
+- Add scenes and videos
+- Add questions to each scene
+- Write instructions and feedback
+- Identify when instructions and questions will appear
+- Save your progress in the browser
+- Print the completed training plan or save it as a PDF
 
----
-
-## Step 1: Select the Video Format
-
-Begin by deciding how the training video should respond to the participant's answers.
-
-There are two available formats.
-
-### Option 1: Continuous Video With Embedded Questions
-
-In this format, the participant watches one continuous video.
-
-At predetermined points:
-
-1. The video pauses.
-2. A question appears on the screen.
-3. The participant selects an answer.
-4. The video resumes.
-5. The process repeats when the next question is reached.
-
-> **Recommended use:** Choose this format when all participants should watch the same video sequence while answering questions that assess their understanding.
-
-### Option 2: Branching Video With Different Outcomes
-
-In this format, the video sequence changes depending on the participant's answer.
-
-For example:
-
-- A correct answer may continue to the next part of the training.
-- An incorrect answer may show corrective feedback.
-- A selected answer may lead to a different video, scene, or outcome.
-
-> **Recommended use:** Choose this format when participants' decisions should affect the storyline, setting, or sequence of the training.
-
-To use a branching format, prepare all required materials in advance, including:
-
-- Each video segment
-- The instructions presented during each segment
-- The questions
-- The answer options
-- The correct answer for each question
-- The feedback presented after incorrect answers
-- The destination video or scene associated with each answer
-
-### Video Format Comparison
-
-| Feature | Continuous Video | Branching Video |
-|---|---:|---:|
-| Uses one primary video sequence | Yes | Not necessarily |
-| Questions pause the video | Yes | Yes |
-| All participants see the same sequence | Yes | No |
-| Answers can change the storyline | No | Yes |
-| Requires multiple prepared video segments | No | Usually |
-| Complexity | Lower | Higher |
+> **Note:** Your progress is saved only in the current browser and device.
 
 ---
 
-## Step 2: Prepare the Questions
+## Training Information {-}
 
-Determine how many questions will appear in each training module.
+```{=html}
+<div class="simple-planner">
 
-For every question, prepare:
+<label>
+<strong>Training title</strong>
+<input type="text" placeholder="Enter the training title">
+</label>
 
-1. The question text
-2. The possible answer options
-3. The correct answer
-4. The feedback associated with each answer
+<label>
+<strong>Training objective</strong>
+<textarea rows="3" placeholder="Describe what participants should learn."></textarea>
+</label>
 
-> **Current limitation:** The project currently includes templates for questions with either **two** or **four** answer options.
+<label>
+<strong>Video format</strong>
+<select>
+  <option>Continuous video with embedded questions</option>
+  <option>Branching video with different outcomes</option>
+</select>
+</label>
 
-Use the following format when planning each question:
+<label>
+<strong>Number of scenes or videos</strong>
+<input type="number" min="1" placeholder="Enter the number of scenes">
+</label>
 
-| Component | Example |
-|---|---|
-| Question | What should the caregiver do next? |
-| Answer A | Remove the hearing aid |
-| Answer B | Redirect the child to the activity |
-| Correct answer | Answer B |
-| Correct-answer feedback | Correct. Redirecting helps the child continue participating. |
-| Incorrect-answer feedback | Try again. Removing the hearing aid may reinforce the behavior. |
+<h3>General Preparation Checklist</h3>
 
----
+<label class="check-item">
+<input type="checkbox">
+The training objective has been identified.
+</label>
 
-## Step 3: Prepare the Instructions
+<label class="check-item">
+<input type="checkbox">
+The video format has been selected.
+</label>
 
-Write the instructions that participants will see before each question.
+<label class="check-item">
+<input type="checkbox">
+All videos have been recorded or prepared.
+</label>
 
-The instructions should tell participants what to observe or consider while watching the video.
+<label class="check-item">
+<input type="checkbox">
+The questions and answer choices have been written.
+</label>
 
-For example:
+<label class="check-item">
+<input type="checkbox">
+Correct and corrective feedback has been prepared.
+</label>
 
-> **Instruction:** Watch how the caregiver responds when the child attempts to remove the hearing aid.
+<label class="check-item">
+<input type="checkbox">
+The appearance times for instructions and questions have been identified.
+</label>
 
-Keep each instruction:
+<hr>
 
-- Short
-- Clear
-- Directly related to the upcoming question
-- Visible long enough for the participant to read it
+<h3>Scene 1</h3>
 
----
+<label>
+<strong>Scene or video name</strong>
+<input type="text" placeholder="Enter the scene name">
+</label>
 
-## Step 4: Prepare the Feedback
+<label>
+<strong>Video filename</strong>
+<input type="text" placeholder="Example: scene-01.mp4">
+</label>
 
-Write the feedback that will appear after the participant selects an answer.
+<label>
+<strong>Video duration</strong>
+<input type="text" placeholder="Example: 06:30">
+</label>
 
-Prepare feedback for:
+<label>
+<strong>Scene objective</strong>
+<textarea rows="2" placeholder="Describe the purpose of this scene."></textarea>
+</label>
 
-- The correct answer
-- Each incorrect answer
+<h4>Question 1</h4>
 
-### Correct-Answer Feedback
+<label>
+<strong>Instruction appearance time</strong>
+<input type="text" placeholder="Example: 02:00">
+</label>
 
-Correct-answer feedback should:
+<label>
+<strong>Question appearance time</strong>
+<input type="text" placeholder="Example: 03:00">
+</label>
 
-- Confirm that the selected answer was correct
-- Briefly explain why it was correct
-- Reinforce the important training concept
+<label>
+<strong>Instruction text</strong>
+<textarea rows="2" placeholder="Write the instruction shown before the question."></textarea>
+</label>
 
-### Incorrect-Answer Feedback
+<label>
+<strong>Question text</strong>
+<textarea rows="2" placeholder="Write the question."></textarea>
+</label>
 
-Incorrect-answer feedback should:
+<label>
+<strong>Answer choice 1</strong>
+<input type="text" placeholder="Enter the first answer">
+</label>
 
-- Indicate that the selected answer was incorrect
-- Explain why the answer was not appropriate
-- Redirect the participant toward the relevant instruction
-- Allow the participant to try again, when applicable
+<label>
+<strong>Answer choice 2</strong>
+<input type="text" placeholder="Enter the second answer">
+</label>
 
-> **Tip:** Feedback should teach the participant, not only indicate whether the answer was correct or incorrect.
+<label>
+<strong>Answer choice 3</strong>
+<input type="text" placeholder="Optional">
+</label>
 
----
+<label>
+<strong>Answer choice 4</strong>
+<input type="text" placeholder="Optional">
+</label>
 
-## Step 5: Identify When Each Element Will Appear
+<label>
+<strong>Correct answer</strong>
+<select>
+  <option>Answer choice 1</option>
+  <option>Answer choice 2</option>
+  <option>Answer choice 3</option>
+  <option>Answer choice 4</option>
+</select>
+</label>
 
-Determine the exact time at which each instruction and question should appear in the video.
+<label>
+<strong>Correct-answer feedback</strong>
+<textarea rows="2" placeholder="Explain why the answer is correct."></textarea>
+</label>
 
-For each item, record:
+<label>
+<strong>Corrective feedback</strong>
+<textarea rows="2" placeholder="Explain why the selected answer is incorrect."></textarea>
+</label>
 
-- The instruction appearance time
-- The question appearance time
-- The video location associated with the item
-- What should happen after the participant answers
+<h4>Question Checklist</h4>
 
-For example, an instruction may appear:
+<label class="check-item">
+<input type="checkbox">
+The instruction is short and clear.
+</label>
 
-- One minute before the related question
-- Immediately before a target behavior occurs
-- Immediately after a specific scenario is shown
-- At the beginning of a new training segment
+<label class="check-item">
+<input type="checkbox">
+The question is directly related to the video.
+</label>
 
-### Example Timeline
+<label class="check-item">
+<input type="checkbox">
+The correct answer has been designated.
+</label>
 
-| Video Time | Element | Content | Action |
-|---:|---|---|---|
-| 02:00 | Instruction | Observe how the caregiver responds. | Continue playing |
-| 03:00 | Question 1 | What should the caregiver do next? | Pause video |
-| 05:00 | Instruction | Pay attention to the child's communication. | Continue playing |
-| 06:00 | Question 2 | Which response is most appropriate? | Pause video |
+<label class="check-item">
+<input type="checkbox">
+Correct and corrective feedback has been written.
+</label>
 
----
+<label class="check-item">
+<input type="checkbox">
+The instruction and question times have been verified.
+</label>
 
-## Step 6: Install Unity and Unity Hub
+<hr>
 
-Before opening the project template:
+<h3>Final Checklist</h3>
 
-1. Download Unity Hub.
-2. Create or sign in to your Unity account.
-3. Install the required version of the Unity Editor.
-4. Confirm that Unity Hub opens correctly.
+<label class="check-item">
+<input type="checkbox">
+All scene names have been finalized.
+</label>
 
-Refer to the [Setup Programs](#setup-programs) chapter for detailed installation instructions.
+<label class="check-item">
+<input type="checkbox">
+All video filenames and durations have been recorded.
+</label>
 
----
+<label class="check-item">
+<input type="checkbox">
+All questions have the required answer choices.
+</label>
 
-## Step 7: Save the Project Template
+<label class="check-item">
+<input type="checkbox">
+All pause times occur in the correct order.
+</label>
 
-Download or copy the Unity project template to your computer.
+<label class="check-item">
+<input type="checkbox">
+The complete training plan has been reviewed.
+</label>
 
-Save it in a location that is:
+<p class="print-instruction">
+<strong>To print this checklist:</strong> press <kbd>Ctrl</kbd> + <kbd>P</kbd>
+and select your printer or <strong>Save as PDF</strong>.
+</p>
 
-- Easy to find
-- Separate from the original compressed file
-- Included in your regular backup system
-
-For example:
-
-```text
-Documents/
-└── Interactive Training Projects/
-    └── Training Project Template/
- ```
+</div>
+```

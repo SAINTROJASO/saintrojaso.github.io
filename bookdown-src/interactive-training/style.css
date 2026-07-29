@@ -116,3 +116,165 @@ h1.title {
   padding-left: 40px !important;
   padding-right: 40px !important;
 }
+
+/* ========================================================= APA-STYLE TABLES ========================================================= */
+
+.apa-table {
+  width: 100%;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  border-collapse: collapse;
+  border-top: 2px solid #333 !important;
+  border-bottom: 2px solid #333 !important;
+}
+
+/* Line below the column headings */
+.apa-table thead {
+  border-bottom: 1px solid #333 !important;
+}
+
+/* Removes all other table borders */
+.apa-table th,
+.apa-table td,
+.apa-table tr {
+  border: none !important;
+}
+
+/* Styles the column headings */
+.apa-table th {
+  padding: 0.65rem 0.75rem;
+  text-align: left;
+  vertical-align: bottom;
+  font-weight: 600;
+  background-color: transparent !important;
+}
+
+/* Styles the table body */
+.apa-table td {
+  padding: 0.65rem 0.75rem;
+  text-align: left;
+  vertical-align: top;
+  background-color: transparent !important;
+}
+
+/* Removes alternating row shading */
+.apa-table tbody tr:nth-child(odd),
+.apa-table tbody tr:nth-child(even) {
+  background-color: transparent !important;
+}
+
+/* Makes the first column uppercase but not bold */
+.apa-table tbody td:first-child {
+  text-transform: uppercase;
+  font-weight: normal !important;
+}
+
+/* Allows inline code to wrap */
+.apa-table code {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+---
+/* ========================================================= Simple training-plan checklist ========================================================= */
+
+.simple-planner {
+  margin: 1.5rem 0;
+  padding: 1.5rem;
+  border: 1px solid #d8dde3;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.simple-planner label {
+  display: block;
+  margin: 1rem 0;
+}
+
+.simple-planner input[type="text"],
+.simple-planner input[type="number"],
+.simple-planner textarea,
+.simple-planner select {
+  display: block;
+  width: 100%;
+  margin-top: 0.4rem;
+  padding: 0.65rem;
+  font-family: inherit;
+  font-size: 1rem;
+  border: 1px solid #b8c0c8;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.simple-planner textarea {
+  resize: vertical;
+}
+
+.simple-planner .check-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.65rem;
+  margin: 0.7rem 0;
+  font-weight: normal;
+}
+
+.simple-planner .check-item input {
+  margin-top: 0.25rem;
+}
+
+.simple-planner hr {
+  margin: 2rem 0;
+  border: 0;
+  border-top: 1px solid #d8dde3;
+}
+
+.print-instruction {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: #f4f6f8;
+  border-left: 4px solid #008cff;
+}
+
+@media print {
+  .book-summary,
+  .book-header,
+  .navigation,
+  .print-instruction {
+    display: none !important;
+  }
+
+  .book-body {
+    left: 0 !important;
+  }
+
+  .page-wrapper {
+    margin-left: 0 !important;
+  }
+
+  .page-inner {
+    max-width: none !important;
+    padding: 0 !important;
+  }
+
+  .simple-planner {
+    padding: 0;
+    border: 0;
+  }
+
+  .simple-planner input[type="text"],
+  .simple-planner input[type="number"],
+  .simple-planner textarea,
+  .simple-planner select {
+    color: #000000;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #555555;
+    border-radius: 0;
+  }
+
+  .simple-planner h3,
+  .simple-planner h4 {
+    break-after: avoid;
+  }
+}

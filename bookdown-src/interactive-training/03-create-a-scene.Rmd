@@ -16,13 +16,25 @@ Begin by importing the videos that you plan to use in the training.
 `Assets > 1_SCENES > 2_PROJECT VIDEOS`
 </div>
 
-```{r step-1-1, echo=FALSE, out.width="25%", fig.align="center", fig.cap="Locate Import Videos Path"}
+```{r}
+#| label: step-1-1
+#| echo: false
+#| out-width: "25%"
+#| fig-align: center
+#| fig-cap: "Locate Import Videos Path"
+
 knitr::include_graphics("images/step_1_1.png")
 ```
 
 2. Double click in the right gray panel, and choose the option **Import new asset**. Then choose the video files from your computer.
 
-```{r step-1-2, echo=FALSE, out.width="50%", fig.align="center", fig.cap="Import Videos Path"}
+```{r}
+#| label: step-1-2
+#| echo: false
+#| out-width: "50%"
+#| fig-align: center
+#| fig-cap: "Import Videos Path"
+
 knitr::include_graphics("images/step_1_2.png")
 ```
 
@@ -41,9 +53,17 @@ For example:
 
 5. Make sure that the videos are uploaded. They should appear in the right window of the **Project** panel. 
 
-```{r step-1-3, echo=FALSE, out.width="100%", fig.align="center", fig.cap="Check Videos"}
+```{r}
+#| label: step-1-3
+#| echo: false
+#| out-width: "100%"
+#| fig-align: center
+#| fig-cap: "Check Videos"
+
 knitr::include_graphics("images/step_1_3.png")
 ```
+
+6. Save the progress. File > Save
 
 ---
 
@@ -59,13 +79,25 @@ Create a new scene for each video in the training.
 `Assets > 1_SCENES > 1_1_PROJECT_SCENES`
 </div>
 
-```{r step-2-1, echo=FALSE, out.width="25%", fig.align="center", fig.cap="Locate Scenes Path"}
+```{r}
+#| label: step-2-1
+#| echo: false
+#| out-width: "25%"
+#| fig-align: center
+#| fig-cap: "Locate Scenes Path"
+
 knitr::include_graphics("images/step_2_1.png")
 ```
 
-2. You should see the following pre-built scenes on the right side of the window: `0_STARTING SCENE`, `1_FIRST_SCENE`, and `LAST SCENE` in the left window of the **Project** panel.
+2. Check that you see the following pre-built scenes: `0_STARTING SCENE`, `1_FIRST_SCENE`, and `LAST SCENE` on the right side of the **Project** panel.
 
-```{r step-2-2, echo=FALSE, out.width="100%", fig.align="center", fig.cap="Create Scenes"}
+```{r}
+#| label: step-2-2
+#| echo: false
+#| out-width: "100%"
+#| fig-align: center
+#| fig-cap: "Create Scenes"
+
 knitr::include_graphics("images/step_2_2.png")
 ```
 
@@ -86,13 +118,26 @@ For example:
 `SCENE START > TRAINING_INTRODUCTION`
 </div>
 
-```{r step-2-3, echo=FALSE, out.width="25%", fig.align="center", fig.cap="Locate Path"}
+```{r}
+#| label: step-2-3
+#| echo: false
+#| out-width: "25%"
+#| fig-align: center
+#| fig-cap: "Locate Path"
+
 knitr::include_graphics("images/step_2_3.png")
 ```
 
+
 5. Locate the **Inspector** panel (at the right of the **Hierarchy** panel), and write the instructions in the text box below the ***Header Text*** title.
 
-```{r step-2-4, echo=FALSE, out.width="75%", fig.align="center", fig.cap="Write Training Instructions"}
+```{r}
+#| label: step-2-4
+#| echo: false
+#| out-width: "75%"
+#| fig-align: center
+#| fig-cap: "Write Training Instructions"
+
 knitr::include_graphics("images/step_2_4.png")
 ```
 
@@ -104,36 +149,62 @@ knitr::include_graphics("images/step_2_4.png")
 
 Once you have renamed the scene, assign its corresponding video.
 
-1. Locate the scene you want to add the video to, and double-click it to open it.
+1. Locate the scene you want to add the video to and double-click it to open it.
 
 > **Important:** Double-clicking is required to open a scene — a single click is not enough. To confirm a scene is open, check that its name matches the name shown at the top of the **Hierarchy** panel.
+
+```{r}
+#| label: step-3-1
+#| echo: false
+#| out-width: "75%"
+#| fig-align: center
+#| fig-cap: "Check Scene Name"
+
+knitr::include_graphics("images/step_3_1.png")
+```
 
 2. In the **Hierarchy** panel, open the following path:
 
 <div align="center">
-
-`SceneStart > MENU > VIDEO_PLAYER`
-
+`SCENE START > MENU > VIDEO_PLAYER`
 </div>
 
-3. Select **VIDEO_PLAYER**.
-4. In the **Inspector** panel, follow the path:
+```{r}
+#| label: step-3-2
+#| echo: false
+#| out-width: "25%"
+#| fig-align: center
+#| fig-cap: "Locate Path"
 
-<div align="center">
+knitr::include_graphics("images/step_3_2.png")
+```
 
-`VIDEO_PLAYER > Video Clip`
+3. Locate the **Inspector** panel, and in the ***Video Clip*** sub section click in the circle icon
 
-</div>
+```{r}
+#| label: step-3-3
+#| echo: false
+#| out-width: "75%"
+#| fig-align: center
+#| fig-cap: "Upload Videos"
 
-5. Drag the video you want to use from the video folder into the **Video Clip** field.
+knitr::include_graphics("images/step_3_3.png")
+```
 
-> **Tip:** You can find these in the **Project** panel:
->
-> - **Scenes:** `Assets > 1_Scenes > Project_Scenes > [YOUR SCENE NAME]`
-> - **Videos:** `Assets > 1_Scenes > [VIDEO FOLDER NAME]`
+5. Select the video clip you want to use from the window that appears 
+
+```{r}
+#| label: step-3-4
+#| echo: false
+#| out-width: "25%"
+#| fig-align: center
+#| fig-cap: "Select Video"
+
+knitr::include_graphics("images/step_3_4.png")
+```
 
 6. Confirm that the video appears by double-clicking on it
-7. Save the scene with `Ctrl + S`.
+7. Save the progress. File > Save
 
 ---
 
@@ -151,47 +222,166 @@ In this section, you will set up the following for the scene you just created:
 1. Locate the **Project** panel and open the path:
 
 <div align="center"> 
-`Assets > Prefabs` 
+`Assets > 0_PREFABS` 
 </div>
 
-2. Depending on the number of answer choices you want, drag **FourMultipleAnswers** or **TwoMultipleAnswers** into the **Hierarchy** panel, into the gray area. You can add as many questions as you want per video.
+```{r}
+#| label: step-4-1
+#| echo: false
+#| out-width: "25%"
+#| fig-align: center
+#| fig-cap: "Locate Path"
 
-   For example, for a three-minute video with four questions — three with two answer choices and one with four answer choices — you would drag **TwoMultipleAnswers** three times and **FourMultipleAnswers** once into the **Hierarchy** panel.
+knitr::include_graphics("images/step_4_1.png")
+```
 
-> **Note:** Make sure the prefab appears directly under `SCENE START`, and not nested inside one of its folders (see image below). If it appears in the wrong place, delete it (left-click it, then press Delete) and drag it again.
+2. Drag one of the prefabs: **question_four_multiple_answers** or **question_four_multiple_answers** (depending on the type of question you want) into the gray area of the **Hierarchy** panel.
 
-3. Click the question prefab to select it, then locate the **Inspector** panel and its **EDIT EVERYTHING BELOW THIS** subsection:
+```{r}
+#| label: step-4-2
+#| echo: false
+#| out-width: "25%"
+#| fig-align: center
+#| fig-cap: "Drag Question"
 
-    - **3.1.**To edit the instruction text — replace `Write the content of the instructions here`.
-    - **3.2.**To edit the question text — replace `Write the content of the question here`.
-    - **3.3.**To edit the answer choices text — write each answer directly into its corresponding **Answer Choice** box (**Answer Choice 1**, **Answer Choice 2**, etc.).
-    - **3.4.**To edit the correct feedback text — replace `Write your correct feedback here`.
-    - **3.5.**To edit the corrective feedback text — replace `Write your corrective feedback here`.
+knitr::include_graphics("images/step_4_2.png")
+```
 
-4. To choose which answer will be considered as correct, write the number of the answer in the `Conrrect Answer Choice`.
-5. Repeat steps 3 and 4 for each question you have. 
+3. Click the question prefab, then locate the **Inspector** panel and the subsection **EDIT EVERYTHING BELOW THIS**.
 
-> **Note:** You have the option of providing more detailes corrective feedback if the participant answers wrong multiple times the same question. You can write more detailed feedback on the subsections `Corrective Feedback Text  2`, `Corrective Feedback Tex 3` and `Corrective Feedback Tex 4`. 
+```{r}
+#| label: step-4-3
+#| echo: false
+#| out-width: "50%"
+#| fig-align: center
+#| fig-cap: "Edit Question Content"
 
+knitr::include_graphics("images/step_4_3.png")
+```
 
-Use the **Scene Manager** to determine when questions will appear during the video.
+4. Edit the question content. See the table below for more indications.
 
-### Open the Dynamic Sequence Setup
+```{r}
+#| label: question-content-table
+#| echo: false
+#| results: asis
 
-1. In the **Hierarchy** panel, select ***SCENCE MANAGER*** in the the following path:
+library(knitr)
+library(kableExtra)
 
-   `SCENE START > MENU > SCENE MANAGER`
+question_table <- data.frame(
+  FIELD = c(
+    "INSTRUCTION TEXT",
+    "QUESTION TEXT",
+    "ANSWER CHOICES",
+    "CORRECT-ANSWER FEEDBACK",
+    "CORRECTIVE-ANSWER FEEDBACK"
+  ),
+  `WHAT TO DO` = c(
+    "Replace `Write the content of the instructions here`.",
+    "Replace `Write the content of the question here`.",
+    "Write the content of each answer in its corresponding `Answer Choice #`field.",
+    "Replace `Write your correct feedback here`.",
+    "Replace `Write your corrective feedback here`."
+  ),
+  check.names = FALSE
+)
 
-2. Go to the **Inspector** panel, locate **Dynamic Sequence Setup**.
+kable(
+  question_table,
+  format = "html",
+  escape = FALSE,
+  align = c("l", "l"),
+  table.attr = 'class="apa-table"'
+) |>
+  column_spec(1, width = "30%") |>
+  column_spec(2, width = "70%")
+```
 
-You will see two main lists:
+5. To select the correct answer, enter its corresponding number in the `Correct Answer Choice field`
 
-| List | Purpose |
-|---|---|
-| **Question Canvases** | Determines which question appears at each pause. In other words, the order of questions |
-| **Pause At** | Determines when the video pauses for each question om seconds|
+In the image below, you will observe that the correct question for the answer ` How many people are around you in this room?` is `>5` that corresponds to the `Answer Choice 2` which is already selected in the answer key
 
-#### Configure Question Canvases
+```{r}
+#| label: step-4-4
+#| echo: false
+#| out-width: "50%"
+#| fig-align: center
+#| fig-cap: "Choose Correct Answer"
+
+knitr::include_graphics("images/step_4_4.png")
+```
+
+6. Repeat Steps 1–5 to add additional questions in the scene.
+
+> **Note:** You have the provide more detailed corrective feedback when the participant answers the same question incorrectly multiple times. Enter this additional feedback in the `Corrective Feedback Text 2`, `Corrective Feedback Text 3`, and `Corrective Feedback Text 4` fields. 
+
+7. Save the progress. File > Save
+
+### Step 4.1: Set up Question Order and Timing {-}
+
+1. Locate **Hierarchy** panel and open the path
+
+<div align="center">
+`SCENE START > MENU > SCENE MANAGER`
+</div>
+
+```{r}
+#| label: step-4-5
+#| echo: false
+#| out-width: "25%"
+#| fig-align: center
+#| fig-cap: "Locate Path"
+
+knitr::include_graphics("images/step_4_5.png")
+```
+
+2. Locate the **Inspector** panel and look fo rht **Dynamic Sequence Setup** subsection.
+
+```{r}
+#| label: step-4-6
+#| echo: false
+#| out-width: "50%"
+#| fig-align: center
+#| fig-cap: "Locate Path"
+
+knitr::include_graphics("images/step_4_6.png")
+```
+
+You will see **Question Canvases** and **Pause At**. The table bellow provides a detailes description of each. 
+
+```{r}
+#| label: question-order-table
+#| echo: false
+#| results: asis
+
+library(knitr)
+library(kableExtra)
+
+question_order_table <- data.frame(
+  LIST = c(
+    "QUESTION CANVASES",
+    "PAUSE AT"
+  ),
+  PURPOSE = c(
+    "Determines which question appears at each pause. In other words, this list determines the order in which the questions are presented.",
+    "Determines the time, in seconds, at which the video pauses to present each question."
+  ),
+  check.names = FALSE
+)
+
+kable(
+  question_order_table,
+  format = "html",
+  escape = FALSE,
+  align = c("l", "l"),
+  table.attr = 'class="apa-table"'
+) |>
+  column_spec(1, width = "30%") |>
+  column_spec(2, width = "70%")
+```
+
+### Step 4.2: Configure Question Canvases {-}
 
 3. Drag the questions objects that you have from the ***Hierarchy*** panel to the Question Canvases
 4. Write the time in the video where the questions should appear. Take into account that the numbers are in second, and they should correspond to the seconds in the Video. 
@@ -213,7 +403,7 @@ For example:
 
 In this example, the questions will appear at 1:00, 2:00, and 3:00 minutes.
 
-### Verify that the scenes are connected
+### Step 4.3: Verify that the scenes are connected {-}
 
 1. Open the scenes in the ***Project*** panel `ASSETS > 1_SCENES > PROJECT SCENES`
 2. Leave the scenes open 
