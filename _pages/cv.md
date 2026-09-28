@@ -50,20 +50,18 @@ WORK IN PROGRESS (Describe important ongoing research and other projects that ar
 
 CONFERENCE PRESENTATIONS
 
-Rojas, S., Clay, C. J. Increasing Hearing Aid use in Early Childhood (2026, March). Poster presented at the 19th Annual Conference of Four Corners Applied Behavior Analysis. Prescott, AZ.
+Rojas, S., Clay, C. J., Cousins, D., Preston, E., Najafichaghabouri, M., El Horr & P., Aguilar, J. (2026, September). Teachers’ use and social acceptability of consequence-based strategies for challenging classroom behavior. In D. Wagner (Chair), Behavior analysis in schools [Symposium]. UtABA 2026 Annual Conference, Salt Lake City, UT, United States.
 
-Disability Disciplines Doctoral Symposium Poster Presentation 2026
+Rojas, S., & Clay, C. J. (2026, May). Increasing hearing aid use in early childhood: Interactive video strategies for ethical parental guidance. In N. A. Lindgren (Chair), Ethical considerations for collaboration, decision-making, and applied practice [Symposium]. 52nd Annual Convention of the Association for Behavior Analysis International, San Francisco, CA, United States.
 
-Rojas, S., Lab Presentation Poster (2025, March). Poster presented at the 18th Annual Conference of Four Corners Applied Behavior Analysis. Colorado Springs, CO.
+Rojas, S., & Clay, C. J. (2026, March). Increasing hearing aid use in early childhood [Poster presentation]. 19th Annual Conference of Four Corners Applied Behavior Analysis, Prescott, AZ, United States.
 
-Rojas, S., Clay, C. J. Increasing Hearing Aid use in Early Childhood: A Proposal (2025, May). Poster presented at the 51st Annual Convention of Association for Behavior Analysis International. Washington, DC.
- 
-Disability Disciplines Doctoral Symposium Poster Presentation 2025
- 
-Rojas, S., Clay, C. J. Increasing Hearing Aid use in Early Childhood: A Proposal (2025, April). Poster in ABA poster presented at the Disability Disciplines Doctoral Spring Seminar. Logan, UT.
+Rojas, S. (2026, April). Increasing hearing aid use in early childhood [Poster presentation]. Disability Disciplines Doctoral Symposium, Utah State University, Logan, UT, United States.
 
+Rojas, S. (2025, March). Lab presentation poster [Poster presentation]. 18th Annual Conference of Four Corners Applied Behavior Analysis, Colorado Springs, CO, United States. Check “Lab Presentation Poster”: if that describes the poster rather than its actual title, replace it with the title printed on the poster.
 
+Rojas, S., & Clay, C. J. (2025, May). Increasing hearing aid use in early childhood: A proposal [Poster presentation]. 51st Annual Convention of the Association for Behavior Analysis International, Washington, DC, United States.
 
-Rojas, S., & Clay, C. J. (2026, May). Increasing Hearing Aid Use in Early Childhood Interactive Video Strategies for Ethical Parental Guidance. In N. A. Lindgren (Chair), Ethical considerations for collaboration, decision-making, and applied practice [Symposium]. 52nd Annual Convention of the Association for Behavior Analysis International, San Francisco, CA, United States.
+Rojas, S. (2025, February). Increasing hearing aid use in early childhood: A proposal [Poster presentation]. Disability Disciplines Doctoral Symposium, Utah State University, Logan, UT, United States.
 
-
+Rojas, S., & Clay, C. J. (2025, April). Increasing hearing aid use in early childhood: A proposal [Poster presentation]. Disability Disciplines Doctoral Spring Seminar, Logan, UT, United States.
