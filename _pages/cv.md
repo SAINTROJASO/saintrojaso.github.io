@@ -27,17 +27,17 @@ redirect_from:
 3. **Ph.D. 2024 - Present Utah State University, Logan, United States.** 
 - Specialty:  Applied Behavior Analysis
 
-# EMPLOYMENT HISTORY
+## EMPLOYMENT HISTORY
 1. **Psychologue 2022 – 2023**
-- ASSOCIATION AGIR ET VIVRE L’AUTISME 
+- Association Agir et Vivre l'Autisme
 
 2. **Assistant Psychologue 2021 – 2022**
-- ASSOCIATION AGIR ET VIVRE L’AUTISME
+- Association Agir et Vivre l'Autisme
 
 ## WORK IN PROGRESS
 
-1.	**Virtual Reality:** Creation of Immersive Tutorial videos to train special educators/caregivers/teachers in Functional Analysis procedures
-2.	**Hearing Aid Project**: Introductory Behavior Analysis video tutorials for parents/caregivers 
+1.	**Virtual Reality:** Creation of Immersive Tutorial videos to train special educators/caregivers/teachers in Functional Analysis procedures.
+2.	**Hearing Aid Project**: Introductory Behavior Analysis video tutorials for parents/caregivers. 
 
 ## CONFERENCE PRESENTATIONS
 
@@ -45,14 +45,14 @@ redirect_from:
 
 - Rojas, S., & Clay, C. J. (2026, May). Increasing hearing aid use in early childhood: Interactive video strategies for ethical parental guidance. In N. A. Lindgren (Chair), *Ethical considerations for collaboration, decision-making, and applied practice* [Symposium]. 52nd Annual Convention of the Association for Behavior Analysis International, San Francisco, CA, United States.
 
-- Rojas, S., & Clay, C. J. (2026, March). *Increasing hearing aid use in early childhood* [Poster presentation]. 19th Annual Conference of Four Corners Applied Behavior Analysis, Prescott, AZ, United States.
-
 - Rojas, S. (2026, April). *Increasing hearing aid use in early childhood* [Poster presentation]. Disability Disciplines Doctoral Symposium, Utah State University, Logan, UT, United States.
 
-- Rojas, S. (2025, March). *Lab presentation poster* [Poster presentation]. 18th Annual Conference of Four Corners Applied Behavior Analysis, Colorado Springs, CO, United States.
+- Rojas, S., & Clay, C. J. (2026, March). *Increasing hearing aid use in early childhood* [Poster presentation]. 19th Annual Conference of Four Corners Applied Behavior Analysis, Prescott, AZ, United States.
 
 - Rojas, S., & Clay, C. J. (2025, May). *Increasing hearing aid use in early childhood: A proposal* [Poster presentation]. 51st Annual Convention of the Association for Behavior Analysis International, Washington, DC, United States.
 
-- Rojas, S. (2025, February). Increasing hearing aid use in early childhood: A proposal [Poster presentation]. Disability Disciplines Doctoral Symposium, Utah State University, Logan, UT, United States.
+- Rojas, S., & Clay, C. J. (2025, April). *Increasing hearing aid use in early childhood: A proposal* [Poster presentation]. Disability Disciplines Doctoral Spring Seminar, Logan, UT, United States.
 
-- Rojas, S., & Clay, C. J. (2025, April). Increasing hearing aid use in early childhood: A proposal [Poster presentation]. Disability Disciplines Doctoral Spring Seminar, Logan, UT, United States.
+- Rojas, S. (2025, March). *Lab presentation poster* [Poster presentation]. 18th Annual Conference of Four Corners Applied Behavior Analysis, Colorado Springs, CO, United States.
+
+- Rojas, S. (2025, February). *Increasing hearing aid use in early childhood: A proposal* [Poster presentation]. Disability Disciplines Doctoral Symposium, Utah State University, Logan, UT, United States.
