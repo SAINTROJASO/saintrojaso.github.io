@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "CURRICULUM VITAE"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,9 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-# CURRICULUM VITAE
 ## **ROJAS OTERO Santiago**
-
 
 **Address**:  Department of Special Education and Rehabilitation, Utah State University, Logan, Utah  84322-2865
 
