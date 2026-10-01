@@ -9,9 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
-**Address**:  Department of Special Education and Rehabilitation, Utah State University, Logan, Utah  84322-2865
-
 **Email:** [santiago.rojasotero@usu.edu](mailto:santiago.rojasotero@usu.edu)
+
+**Address**:  Department of Special Education and Rehabilitation, Utah State University, Logan, Utah  84322-2865
 
 **Current Employment:** PhD Student of Special Education and Psychology, Department of Special Education and Rehabilitation, Utah State University.
 
