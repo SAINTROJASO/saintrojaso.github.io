@@ -14,7 +14,9 @@ redirect_from:
 
 
 **Address**:  Department of Special Education and Rehabilitation, Utah State University, Logan, Utah  84322-2865
+
 **Email:** [santiago.rojasotero@usu.edu](mailto:santiago.rojasotero@usu.edu)
+
 **Current Employment:** PhD Student of Special Education and Psychology, Department of Special Education and Rehabilitation, Utah State University.
 
 
@@ -26,7 +28,7 @@ redirect_from:
 2. **M.S.  2022 	Universitè de Lille, Lille, France.**
 - Major:  Behavior Analysis
 
-3. **Ph.D. 2024 Utah State University, Logan, UT. Ph.D. in Special Education. Department of Special Education & Rehabilitation.** 
+3. **Ph.D. 2024 Utah State University, Department of Special Education & Rehabilitation in Special Education.** 
 - Specialty:  Applied Behavior Analysis
 
 # EMPLOYMENT HISTORY
