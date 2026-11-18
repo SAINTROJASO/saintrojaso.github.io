@@ -71,7 +71,7 @@ knitr::include_graphics("images/step_1_3.png")
 
 Create a new scene for each video in the training.
 
-> **Important:** In this project template, each scene corresponds to one video — so the number of scenes must match the number of videos you imported. For example, a training with three videos will normally require three separate scenes.
+> **Important:** In this project template, each scene corresponds to one video — so the number of scenes must match the number of videos you imported. For example, if you have three videos, the training will consist of three separate scenes.
 
 1. Locate the **Project** panel and open the following path:
 
