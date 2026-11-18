@@ -4,66 +4,188 @@ This chapter explains how to create and configure a scene using the **[Project T
 
 Since this may be your first time using Unity, each step includes a **navigation path** showing exactly where to navigate in Unity's interface.
 
----
-
 ## Step 1: Import the Videos into Unity {-}
 
 Begin by importing the videos that you plan to use in the training.
 
-1. Locate the **Project** panel and open the following path: 
+:::: {.step-card}
+::: {.step-header}
+[1.1]{.step-number} [Locate the Videos Folder]{.step-title}
+:::
 
-<div align="center">
+Locate the **Project** panel and navigate to the following folder:
+
+::: {.step-path}
 `Assets > 1_SCENES > 2_PROJECT VIDEOS`
-</div>
+:::
+
+<details class="step-screenshot">
+<summary>View screenshot</summary>
+
+::: {.screenshot-content}
 
 ```{r}
 #| label: step-1-1
 #| echo: false
-#| out-width: "25%"
+#| out-width: "35%"
 #| fig-align: center
-#| fig-cap: "Locate Import Videos Path"
+#| fig-cap: "Locate the Project Videos folder"
 
 knitr::include_graphics("images/step_1_1.png")
 ```
 
-2. Double click in the right gray panel, and choose the option **Import new asset**. Then choose the video files from your computer.
+:::
+
+</details>
+
+::: {.step-result}
+
+[✓ Expected result]{.step-result-label}
+
+The **2_PROJECT VIDEOS** folder is selected in the Project panel.
+
+:::
+
+::::
+
+
+:::: {.step-card}
+
+::: {.step-header}
+[1.2]{.step-number} [Import the Video Files]{.step-title}
+:::
+
+Right-click the gray area on the right side of the **Project** panel and select **Import New Asset**. Select the video files from your computer.
+
+<details class="step-screenshot">
+<summary>View screenshot</summary>
+
+::: {.screenshot-content}
 
 ```{r}
 #| label: step-1-2
 #| echo: false
-#| out-width: "50%"
+#| out-width: "60%"
 #| fig-align: center
-#| fig-cap: "Import Videos Path"
+#| fig-cap: "Import video files into Unity"
 
 knitr::include_graphics("images/step_1_2.png")
 ```
 
-3. Wait for Unity to finish importing each video.
-4. Rename each video.
+:::
 
-> **TIP:** Give each **video** a short, descriptive filename that reflects its position in the training sequence.
+</details>
 
-```text
+::: {.step-result}
+**✓ Expected result**
+
+Unity begins importing the selected video files.
+:::
+
+::::
+
+
+:::: {.step-card}
+
+::: {.step-header}
+[1.3]{.step-number} [Wait for the Import to Finish]{.step-title}
+:::
+
+Wait for Unity to finish importing and processing the selected video files.
+
+::: {.step-result}
+**✓ Expected result**
+
+All selected video files have been imported into Unity.
+:::
+
+::::
+
+
+:::: {.step-card}
+
+::: {.step-header}
+[1.4]{.step-number} [Rename the Videos]{.step-title}
+:::
+
+Rename each video according to its position in the training sequence.
+
+::: {.step-tip}
+**Tip:** Use short, descriptive filenames that reflect the order of the videos in your training.
+:::
+
 For example:
 
+```text
 01_video_step_1
 02_video_step_2
 03_video_step_2.1
 ```
 
-5. Make sure that the videos are uploaded. They should appear when clicking the folder **2_PROJECT VIDEOS** in the  **Project** panel. 
+::: {.step-result}
+**✓ Expected result**
+
+Each video has a unique and descriptive name that reflects its position in the training sequence.
+:::
+
+::::
+
+
+:::: {.step-card}
+
+::: {.step-header}
+[1.5]{.step-number} [Verify the Imported Videos]{.step-title}
+:::
+
+Select the **2_PROJECT VIDEOS** folder in the **Project** panel and verify that all the videos intended for the training are present.
+
+<details class="step-screenshot">
+<summary>View screenshot</summary>
+
+::: {.screenshot-content}
 
 ```{r}
 #| label: step-1-3
 #| echo: false
 #| out-width: "100%"
 #| fig-align: center
-#| fig-cap: "Check Videos"
+#| fig-cap: "Verify imported video files"
 
 knitr::include_graphics("images/step_1_3.png")
 ```
 
-6. Save the progress. File > Save
+:::
+
+</details>
+
+::: {.step-result}
+**✓ Expected result**
+
+All videos intended for the training are visible in the **Project** panel.
+:::
+
+::::
+
+
+:::: {.step-card}
+
+::: {.step-header}
+[1.6]{.step-number} [Save Your Progress]{.step-title}
+:::
+
+Navigate to the Unity menu bar and select:
+
+::: {.step-path}
+`File > Save`
+:::
+
+::: {.step-result}
+**✓ Expected result**
+
+Changes to the current scene have been saved.
+:::
+
+::::
 
 ---
 
@@ -103,6 +225,8 @@ knitr::include_graphics("images/step_2_2.png")
 
 3. To create your first scene you will use the `1_FIRST_SCENE` as a template. Right-click in it and rename to your convenience. 
 
+4. If you have more scenes, just copy and paste the same scene and rename accordingly
+
 > **TIP:** Just like you did when you imported the videos, it is good practice to use a sequence number and a descriptive title to keep the scenes organized.
 
 ```text
@@ -112,7 +236,7 @@ For example:
 02_scene_demonstration
 03_scene_practice
 ```
-4. To write the content of the training instructions (e.g., In this training you will be asked to complete ...) locate the **Hierarchy** panel and open the path: 
+5. To write the content of the training instructions (e.g., In this training you will be asked to complete ...) locate the **Hierarchy** panel and open the path: 
  
 <div align="center">
 `SCENE START > TRAINING_INTRODUCTION`
@@ -128,8 +252,7 @@ For example:
 knitr::include_graphics("images/step_2_3.png")
 ```
 
-
-5. Locate the **Inspector** panel (at the right of the **Hierarchy** panel), and write the content of the instructions in the text box below the ***Header Text*** title.
+6. Locate the **Inspector** panel (at the right of the **Hierarchy** panel), and write the content of the instructions in the text box below the ***Header Text*** title.
 
 ```{r}
 #| label: step-2-4
@@ -147,7 +270,7 @@ knitr::include_graphics("images/step_2_4.png")
 
 ## Step 3: Add a Video to the Scene {-}
 
-Once you have renamed the scene, assign its corresponding video.
+Once you have renamed the scene, you are going to assign its corresponding video.
 
 1. Locate the scene you want to add the video to and double-click it to open it.
 
@@ -179,7 +302,7 @@ knitr::include_graphics("images/step_3_1.png")
 knitr::include_graphics("images/step_3_2.png")
 ```
 
-3. Locate the **Inspector** panel, and in the ***Video Clip*** sub section click in the circle icon
+3. Locate the **Inspector** panel, and in the **Video Clip** sub section click in the circle icon.
 
 ```{r}
 #| label: step-3-3
@@ -191,7 +314,7 @@ knitr::include_graphics("images/step_3_2.png")
 knitr::include_graphics("images/step_3_3.png")
 ```
 
-5. Select the video clip you want to use from the window that appears 
+5. Select the video clip you want to use from the window that appears.
 
 ```{r}
 #| label: step-3-4
@@ -240,7 +363,7 @@ knitr::include_graphics("images/step_4_1.png")
 ```{r}
 #| label: step-4-2
 #| echo: false
-#| out-width: "25%"
+#| out-width: "75%"
 #| fig-align: center
 #| fig-cap: "Drag Question"
 
@@ -314,7 +437,7 @@ knitr::include_graphics("images/step_4_4.png")
 
 6. Repeat Steps 1–5 to add additional questions in the scene.
 
-> **Note:** You have the provide more detailed corrective feedback when the participant answers the same question incorrectly multiple times. Enter this additional feedback in the `Corrective Feedback Text 2`, `Corrective Feedback Text 3`, and `Corrective Feedback Text 4` fields. 
+> **Note:** If you have to provide more detailed corrective feedback when the participant answers the same question incorrectly multiple times, you can enter additional feedback in the `Corrective Feedback Text 2`, `Corrective Feedback Text 3`, and `Corrective Feedback Text 4` fields. The software will show the corrective feedback 2 upon the second time the client answers wrong, and so on.
 
 7. Save the progress. File > Save
 
@@ -336,19 +459,19 @@ knitr::include_graphics("images/step_4_4.png")
 knitr::include_graphics("images/step_4_5.png")
 ```
 
-2. Locate the **Inspector** panel and look fo rht **Dynamic Sequence Setup** subsection.
+2. Locate the **Inspector** panel and look for the **Dynamic Sequence Setup** section.
 
 ```{r}
 #| label: step-4-6
 #| echo: false
 #| out-width: "50%"
 #| fig-align: center
-#| fig-cap: "Locate Path"
+#| fig-cap: "Set up Question order and timing"
 
 knitr::include_graphics("images/step_4_6.png")
 ```
 
-You will see **Question Canvases** and **Pause At**. The table bellow provides a detailes description of each. 
+You will see two different panels. The **Question Canvases** and **Pause At**. The table bellow provides a description of each. 
 
 ```{r}
 #| label: question-order-table
@@ -364,8 +487,8 @@ question_order_table <- data.frame(
     "PAUSE AT"
   ),
   PURPOSE = c(
-    "Determines which question appears at each pause. In other words, this list determines the order in which the questions are presented.",
-    "Determines the time, in seconds, at which the video pauses to present each question."
+    "Determines the order in which the questions are presented.",
+    "Determines the time in the original video at which the question will be presented."
   ),
   check.names = FALSE
 )
@@ -383,32 +506,68 @@ kable(
 
 ### Step 4.2: Configure Question Canvases {-}
 
-1. Drag the questions objects that you have from the ***Hierarchy*** panel to the Question Canvases
-4. Write the time in the video where the questions should appear. Take into account that the numbers are in second, and they should correspond to the seconds in the Video. 
+#### Step 4.2.1 Configure the Questions Order {-}
 
+1. Change the number right to **Question Canvases** to the number of questions that the scene will have. 
 
-#### Configure the Pause Times
+1. Drag the questions objects that you have from the **Hierarchy** panel to the **Question Canvases**. The order in which the question objects (e.g., question_four_multiple_answers) is displayed bellow the panel is the order in which the questions are shown in the video. 
 
-1. Set the number of items equal to the number of questions in the scene.
-2. Enter the video time at which each question should appear.
-3. Arrange the timestamps in chronological order.
+```{r}
+#| label: step-4-7
+#| echo: false
+#| out-width: "75%"
+#| fig-align: center
+#| fig-cap: "Upload Questions in Scenes"
+
+knitr::include_graphics("images/step_4_7.png")
+```
+
+2. If you have more questions, drag them in their corresponding section. 
+
+#### Step 4.2.2 Configure the Times in which the Questions will Appear {-}
+
+1. Change the number right to **Pause At** to the number of questions that the scene will have. The **number should be the same** as the number you wrote in **Question Canvases** !.
+2. Write the time in the video where the questions should appear. Take into account that the numbers are in second, and they should correspond to the seconds in the Video. If you want the question to appear in the min 2:04 you should write 124.
 
 For example:
 
-| Item | Pause time |
+| Item | Will Appear |
 |---:|---:|
 | 0 | 60 seconds |
 | 1 | 120 seconds |
 | 2 | 180 seconds |
 
-In this example, the questions will appear at 1:00, 2:00, and 3:00 minutes.
+In this example, there different questions will appear at 1:00, 2:00, and 3:00 minutes. The first and last one are of four multiple answers and the second one is of two multiple answers. 
+
+```{r}
+#| label: step-4-8
+#| echo: false
+#| out-width: "75%"
+#| fig-align: center
+#| fig-cap: "Three questions for Scene"
+
+knitr::include_graphics("images/step_4_8.png")
+```
 
 ### Step 4.3: Verify that the scenes are connected {-}
 
-1. Open the scenes in the ***Project*** panel `ASSETS > 1_SCENES > PROJECT SCENES`
-2. Leave the scenes open 
-3. In the ***Hierarchy*** panel, in the subsection **Scence Settings**write the name of the scene that will appear after the video ends. If it is the end of the tutorial, write `LAST SCENE`, so that it connects to the last scene of the project. 
+1. In the **Project panel**, go to **Assets > 1_SCENES > 1_1_PROJECT_SCENES** and double-click the video scene you want to configure.
+2. In the **Hierarchy**, expand **SCENE START** and select **END_SCREEN**.
+3. In the *Inspector**, find **End Screen Scene Controller > Scene Settings > Link To Next Scene**.
+4. In the Link To **Next Scene** field, enter the exact name of the scene that the Next Scene button should open. For the final video scene, enter LAST SCENE.
+5. Press Ctrl+S to save.
 
+```{r}
+#| label: step-4-9
+#| echo: false
+#| out-width: "100%"
+#| fig-align: center
+#| fig-cap: "Link Scenes"
+
+knitr::include_graphics("images/step_4_9.png")
+```
+
+Expected result: After the destination scene is enabled in the build profile, pressing Next Scene on the video’s end screen opens that scene. 
 
 ---
 
@@ -422,7 +581,7 @@ Before continuing, confirm that:
 - The number of items in both lists is identical.
 - Each question is associated with the correct point in the video.
 
-> **Warning:** Questions may appear at the wrong times when the order of the question canvases does not match the order of the pause times.
+> **Warning:** Questions may appear at the wrong times when the order of the question canvases does not match the order of the pause times (Step 4.2)
 
 ---
 
@@ -430,71 +589,127 @@ Before continuing, confirm that:
 
 The beginning screen introduces the training before the video starts.
 
-1. Locate **BeginSceneCanvas** in the **Hierarchy** panel.
-2. Expand the canvas to locate its text elements.
-3. Select the header text.
-4. In the **Inspector** panel, replace the existing text with the introduction for your training.
-5. Save the scene.
+1. In the **Project** panel, double-click on **0_STARTING SCENE**
+
+```{r}
+#| label: step-6
+#| echo: false
+#| out-width: "100%"
+#| fig-align: center
+#| fig-cap: "Find Starting Scene"
+
+knitr::include_graphics("images/step_6.png")
+```
+
+2. Locate **BeginSceneCanvas** in the **Hierarchy** panel and expand **Menu** the canvas to locate **Header Text**.
+
+```{r}
+#| label: step-6-1
+#| echo: false
+#| out-width: "50%"
+#| fig-align: center
+#| fig-cap: "Locate Header Text"
+
+knitr::include_graphics("images/step_6_1.png")
+```
+
+4. In the **Inspector** panel, find the section **TextMeshPro - Text (UI)** (you might have to scroll down) ], and replace the existing text with the introduction for your training. You can double check the text in the Scene panel
+
+```{r}
+#| label: step-6-2
+#| echo: false
+#| out-width: "100%"
+#| fig-align: center
+#| fig-cap: "Change Training Title"
+
+knitr::include_graphics("images/step_6_2.png")
+```
 
 For example:
 
 > Welcome to the caregiver training. In this module, you will observe a caregiver responding to a child during a daily routine.
 
-Keep the introduction:
 
-- Brief
-- Easy to read
-- Relevant to the video
-- Consistent with the purpose of the training module
+> **Tip:** Keep the introduction brief, easy to read, relevant and consistent with the purpose of the training. 
+
+5. Save the scene.
 
 ---
 
-## Step 7: Edit the End Screen {-}
+## Step 7: Check the End Screen {-}
 
-The end screen determines which scene will open after the current scene is completed.
+Check the destination you set in Step 4.3 for each video scene.
 
-1. Locate **End Screen** inside the **SceneStart** prefab.
-2. Select the field that identifies the next scene.
-3. Enter the exact name of the scene that should open next.
+1. In the **Project** panel, double-click the video scene you want to check.
+2. In the **Hierarchy**, expand `SCENE START` and select `END_SCREEN`.
+3. In the **Inspector**, find **End Screen Scene Controller > Scene Settings > Link To Next Scene**. Enter the exact name of the next scene, without the `.unity` extension. For the final video scene, enter `LAST SCENE`.
+4. If you made a change, press **Ctrl+S** to save.
 
-For example:
+```{r}
+#| label: step-7-end-screen
+#| echo: false
+#| out-width: "100%"
+#| fig-align: center
+#| fig-cap: "Select END_SCREEN, find Scene Settings, and check Link To Next Scene"
 
-```text
-02 Demonstration
+knitr::include_graphics("images/step-7-end-screen.png")
 ```
 
-> **Important:** The scene name must be written exactly as it appears in the Unity scene list. Differences in capitalization, spacing, or punctuation may prevent Unity from opening the scene.
+::: {.step-result}
 
-### Configure the Final Scene
+**✓ Expected result**
 
-When the current scene is the final scene in the training, enter:
+**Link To Next Scene** displays the destination. The learner presses the end-screen button to open it. The button reads **Continue** in this example.
 
-```text
-Last Scene
+:::
+
+---
+
+## Step 8: Add the Scene to the Build Profile {-}
+
+Add each new video scene to the **Scene List** used by your active build profile.
+
+1. In the **Project** panel, double-click the new video scene to open it.
+2. Go to **File > Build Profiles**.
+3. Select the active platform or profile and click **Open Scene List**.
+
+```{r}
+#| label: step-8-open-scene-list
+#| echo: false
+#| out-width: "90%"
+#| fig-align: center
+#| fig-cap: "Click Open Scene List in Build Profiles"
+
+knitr::include_graphics("images/step-8-open-scene-list.png")
 ```
 
-Make sure that `Last Scene` matches the text expected by the project template exactly.
+4. If the scene is missing from the list, click **Add Open Scenes**.
+5. Confirm that its checkbox is selected. Check that `0_STARTING SCENE`, every video scene used in your training, and `LAST SCENE` are enabled.
+
+```{r}
+#| label: step-8-enabled-scenes
+#| echo: false
+#| out-width: "90%"
+#| fig-align: center
+#| fig-cap: "Use Add Open Scenes, then check that each required scene is enabled"
+
+knitr::include_graphics("images/step-8-enabled-scenes.png")
+```
+
+::: {.step-result}
+
+**✓ Expected result**
+
+Every scene in the training flow has a checked box in the active **Scene List**. The example shows the three enabled template scenes.
+
+:::
+
+> **Test the connection:** Close **Build Profiles**, open `0_STARTING SCENE`, and enter **Play** mode. Follow the training and press the end-screen button after each video. Confirm that each button opens the intended scene and that the final video leads to `LAST SCENE`.
+
 
 ---
 
-## Step 8: Add the Scene to the Build Profile
-
-Every new scene must be added to the Unity build profile.
-
-1. Open the scene that you want to add.
-2. Select **File** from the Unity menu.
-3. Select **Build Profiles**.
-4. Click **Open Scene List**.
-5. Click **Add Open Scenes**.
-6. Confirm that the scene appears in the scene list.
-
-Repeat this process whenever you create a new scene.
-
-> **Important:** A scene that is not included in the build profile may work inside the Unity Editor but fail to open in the completed application.
-
----
-
-## Step 9: Save the Scene
+## Step 9: Save the Scene {-}
 
 Save the scene after making any changes by pressing:
 
@@ -513,7 +728,7 @@ You should save the scene after:
 
 ---
 
-## Scene Configuration Checklist
+## Step 10 - Scene Configuration Checklist {-}
 
 Before moving to the next scene, confirm that:
 

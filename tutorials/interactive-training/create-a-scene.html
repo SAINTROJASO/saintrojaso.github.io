@@ -110,13 +110,10 @@
 </ul></li>
 <li class="chapter" data-level="" data-path="create-a-scene.html"><a href="create-a-scene.html#step-5-verify-the-question-order"><i class="fa fa-check"></i>Step 5: Verify the Question Order</a></li>
 <li class="chapter" data-level="" data-path="create-a-scene.html"><a href="create-a-scene.html#step-6-edit-the-beginning-screen"><i class="fa fa-check"></i>Step 6: Edit the Beginning Screen</a></li>
-<li class="chapter" data-level="" data-path="create-a-scene.html"><a href="create-a-scene.html#step-7-edit-the-end-screen"><i class="fa fa-check"></i>Step 7: Edit the End Screen</a>
-<ul>
-<li class="chapter" data-level="3.0.1" data-path="create-a-scene.html"><a href="create-a-scene.html#configure-the-final-scene"><i class="fa fa-check"></i><b>3.0.1</b> Configure the Final Scene</a></li>
-</ul></li>
-<li class="chapter" data-level="3.1" data-path="create-a-scene.html"><a href="create-a-scene.html#step-8-add-the-scene-to-the-build-profile"><i class="fa fa-check"></i><b>3.1</b> Step 8: Add the Scene to the Build Profile</a></li>
-<li class="chapter" data-level="3.2" data-path="create-a-scene.html"><a href="create-a-scene.html#step-9-save-the-scene"><i class="fa fa-check"></i><b>3.2</b> Step 9: Save the Scene</a></li>
-<li class="chapter" data-level="3.3" data-path="create-a-scene.html"><a href="create-a-scene.html#scene-configuration-checklist"><i class="fa fa-check"></i><b>3.3</b> Scene Configuration Checklist</a></li>
+<li class="chapter" data-level="" data-path="create-a-scene.html"><a href="create-a-scene.html#step-7-check-the-end-screen"><i class="fa fa-check"></i>Step 7: Check the End Screen</a></li>
+<li class="chapter" data-level="" data-path="create-a-scene.html"><a href="create-a-scene.html#step-8-add-the-scene-to-the-build-profile"><i class="fa fa-check"></i>Step 8: Add the Scene to the Build Profile</a></li>
+<li class="chapter" data-level="" data-path="create-a-scene.html"><a href="create-a-scene.html#step-9-save-the-scene"><i class="fa fa-check"></i>Step 9: Save the Scene</a></li>
+<li class="chapter" data-level="" data-path="create-a-scene.html"><a href="create-a-scene.html#step-10---scene-configuration-checklist"><i class="fa fa-check"></i>Step 10 - Scene Configuration Checklist</a></li>
 </ul></li>
 </ul>
 
@@ -139,55 +136,121 @@
 <h1><span class="header-section-number">3</span> Create a Scene<a href="create-a-scene.html#create-a-scene" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p>This chapter explains how to create and configure a scene using the <strong>[Project Template Name]</strong> Unity project template.</p>
 <p>Since this may be your first time using Unity, each step includes a <strong>navigation path</strong> showing exactly where to navigate in Unity’s interface.</p>
-<hr />
 <div id="step-1-import-the-videos-into-unity" class="section level2 unnumbered hasAnchor">
 <h2>Step 1: Import the Videos into Unity<a href="create-a-scene.html#step-1-import-the-videos-into-unity" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Begin by importing the videos that you plan to use in the training.</p>
-<ol style="list-style-type: decimal">
-<li>Locate the <strong>Project</strong> panel and open the following path:</li>
-</ol>
-<div align="center">
+<div class="step-card">
+<div class="step-header">
+<p><span class="step-number">1.1</span> <span class="step-title">Locate the Videos Folder</span></p>
+</div>
+<p>Locate the <strong>Project</strong> panel and navigate to the following folder:</p>
+<div class="step-path">
 <p><code>Assets &gt; 1_SCENES &gt; 2_PROJECT VIDEOS</code></p>
 </div>
+<details class="step-screenshot">
+<summary>
+View screenshot
+</summary>
+<div class="screenshot-content">
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:step-1-1"></span>
-<img src="images/step_1_1.png" alt="Locate Import Videos Path" width="25%" />
+<img src="images/step_1_1.png" alt="Locate the Project Videos folder" width="35%" />
 <p class="caption">
-Figure 3.1: Locate Import Videos Path
+Figure 3.1: Locate the Project Videos folder
 </p>
 </div>
-<ol start="2" style="list-style-type: decimal">
-<li>Double click in the right gray panel, and choose the option <strong>Import new asset</strong>. Then choose the video files from your computer.</li>
-</ol>
+</div>
+</details>
+<div class="step-result">
+<p><span class="step-result-label">✓ Expected result</span></p>
+<p>The <strong>2_PROJECT VIDEOS</strong> folder is selected in the Project panel.</p>
+</div>
+</div>
+<div class="step-card">
+<div class="step-header">
+<p><span class="step-number">1.2</span> <span class="step-title">Import the Video Files</span></p>
+</div>
+<p>Right-click the gray area on the right side of the <strong>Project</strong> panel and select <strong>Import New Asset</strong>. Select the video files from your computer.</p>
+<details class="step-screenshot">
+<summary>
+View screenshot
+</summary>
+<div class="screenshot-content">
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:step-1-2"></span>
-<img src="images/step_1_2.png" alt="Import Videos Path" width="50%" />
+<img src="images/step_1_2.png" alt="Import video files into Unity" width="60%" />
 <p class="caption">
-Figure 3.2: Import Videos Path
+Figure 3.2: Import video files into Unity
 </p>
 </div>
-<ol start="3" style="list-style-type: decimal">
-<li>Wait for Unity to finish importing each video.</li>
-<li>Rename each video.</li>
-</ol>
-<blockquote>
-<p><strong>TIP:</strong> Give each <strong>video</strong> a short, descriptive filename that reflects its position in the training sequence.</p>
-</blockquote>
-<pre class="text"><code>For example:
-
-01_video_step_1
+</div>
+</details>
+<div class="step-result">
+<p><strong>✓ Expected result</strong></p>
+<p>Unity begins importing the selected video files.</p>
+</div>
+</div>
+<div class="step-card">
+<div class="step-header">
+<p><span class="step-number">1.3</span> <span class="step-title">Wait for the Import to Finish</span></p>
+</div>
+<p>Wait for Unity to finish importing and processing the selected video files.</p>
+<div class="step-result">
+<p><strong>✓ Expected result</strong></p>
+<p>All selected video files have been imported into Unity.</p>
+</div>
+</div>
+<div class="step-card">
+<div class="step-header">
+<p><span class="step-number">1.4</span> <span class="step-title">Rename the Videos</span></p>
+</div>
+<p>Rename each video according to its position in the training sequence.</p>
+<div class="step-tip">
+<p><strong>Tip:</strong> Use short, descriptive filenames that reflect the order of the videos in your training.</p>
+</div>
+<p>For example:</p>
+<pre class="text"><code>01_video_step_1
 02_video_step_2
 03_video_step_2.1</code></pre>
-<ol start="5" style="list-style-type: decimal">
-<li>Make sure that the videos are uploaded. They should appear when clicking the folder <strong>2_PROJECT VIDEOS</strong> in the <strong>Project</strong> panel.</li>
-</ol>
+<div class="step-result">
+<p><strong>✓ Expected result</strong></p>
+<p>Each video has a unique and descriptive name that reflects its position in the training sequence.</p>
+</div>
+</div>
+<div class="step-card">
+<div class="step-header">
+<p><span class="step-number">1.5</span> <span class="step-title">Verify the Imported Videos</span></p>
+</div>
+<p>Select the <strong>2_PROJECT VIDEOS</strong> folder in the <strong>Project</strong> panel and verify that all the videos intended for the training are present.</p>
+<details class="step-screenshot">
+<summary>
+View screenshot
+</summary>
+<div class="screenshot-content">
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:step-1-3"></span>
-<img src="images/step_1_3.png" alt="Check Videos" width="100%" />
+<img src="images/step_1_3.png" alt="Verify imported video files" width="100%" />
 <p class="caption">
-Figure 3.3: Check Videos
+Figure 3.3: Verify imported video files
 </p>
 </div>
-<ol start="6" style="list-style-type: decimal">
-<li>Save the progress. File &gt; Save</li>
-</ol>
+</div>
+</details>
+<div class="step-result">
+<p><strong>✓ Expected result</strong></p>
+<p>All videos intended for the training are visible in the <strong>Project</strong> panel.</p>
+</div>
+</div>
+<div class="step-card">
+<div class="step-header">
+<p><span class="step-number">1.6</span> <span class="step-title">Save Your Progress</span></p>
+</div>
+<p>Navigate to the Unity menu bar and select:</p>
+<div class="step-path">
+<p><code>File &gt; Save</code></p>
+</div>
+<div class="step-result">
+<p><strong>✓ Expected result</strong></p>
+<p>Changes to the current scene have been saved.</p>
+</div>
+</div>
 <hr />
 </div>
 <div id="step-2-create-a-new-scene" class="section level2 unnumbered hasAnchor">
@@ -218,7 +281,8 @@ Figure 3.5: Create Scenes
 </p>
 </div>
 <ol start="3" style="list-style-type: decimal">
-<li>To create your first scene you will use the <code>1_FIRST_SCENE</code> as a template. Right-click in it and rename to your convenience.</li>
+<li><p>To create your first scene you will use the <code>1_FIRST_SCENE</code> as a template. Right-click in it and rename to your convenience.</p></li>
+<li><p>If you have more scenes, just copy and paste the same scene and rename accordingly</p></li>
 </ol>
 <blockquote>
 <p><strong>TIP:</strong> Just like you did when you imported the videos, it is good practice to use a sequence number and a descriptive title to keep the scenes organized.</p>
@@ -228,7 +292,7 @@ Figure 3.5: Create Scenes
 01_scene_introduction
 02_scene_demonstration
 03_scene_practice</code></pre>
-<ol start="4" style="list-style-type: decimal">
+<ol start="5" style="list-style-type: decimal">
 <li>To write the content of the training instructions (e.g., In this training you will be asked to complete …) locate the <strong>Hierarchy</strong> panel and open the path:</li>
 </ol>
 <div align="center">
@@ -240,7 +304,7 @@ Figure 3.5: Create Scenes
 Figure 3.6: Locate Path
 </p>
 </div>
-<ol start="5" style="list-style-type: decimal">
+<ol start="6" style="list-style-type: decimal">
 <li>Locate the <strong>Inspector</strong> panel (at the right of the <strong>Hierarchy</strong> panel), and write the content of the instructions in the text box below the <strong><em>Header Text</em></strong> title.</li>
 </ol>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:step-2-4"></span>
@@ -256,7 +320,7 @@ Figure 3.7: Write Training Instructions
 </div>
 <div id="step-3-add-a-video-to-the-scene" class="section level2 unnumbered hasAnchor">
 <h2>Step 3: Add a Video to the Scene<a href="create-a-scene.html#step-3-add-a-video-to-the-scene" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Once you have renamed the scene, assign its corresponding video.</p>
+<p>Once you have renamed the scene, you are going to assign its corresponding video.</p>
 <ol style="list-style-type: decimal">
 <li>Locate the scene you want to add the video to and double-click it to open it.</li>
 </ol>
@@ -282,7 +346,7 @@ Figure 3.9: Locate Path
 </p>
 </div>
 <ol start="3" style="list-style-type: decimal">
-<li>Locate the <strong>Inspector</strong> panel, and in the <strong><em>Video Clip</em></strong> sub section click in the circle icon</li>
+<li>Locate the <strong>Inspector</strong> panel, and in the <strong>Video Clip</strong> sub section click in the circle icon.</li>
 </ol>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:step-3-3"></span>
 <img src="images/step_3_3.png" alt="Upload Videos" width="75%" />
@@ -291,7 +355,7 @@ Figure 3.10: Upload Videos
 </p>
 </div>
 <ol start="5" style="list-style-type: decimal">
-<li>Select the video clip you want to use from the window that appears</li>
+<li>Select the video clip you want to use from the window that appears.</li>
 </ol>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:step-3-4"></span>
 <img src="images/step_3_4.png" alt="Select Video" width="25%" />
@@ -332,7 +396,7 @@ Figure 3.12: Locate Path
 <li>Drag one of the prefabs: <strong>question_four_multiple_answers</strong> or <strong>question_four_multiple_answers</strong> (depending on the type of question you want) into the gray area of the <strong>Hierarchy</strong> panel.</li>
 </ol>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:step-4-2"></span>
-<img src="images/step_4_2.png" alt="Drag Question" width="25%" />
+<img src="images/step_4_2.png" alt="Drag Question" width="75%" />
 <p class="caption">
 Figure 3.13: Drag Question
 </p>
@@ -417,7 +481,7 @@ Figure 3.15: Choose Correct Answer
 <li>Repeat Steps 1–5 to add additional questions in the scene.</li>
 </ol>
 <blockquote>
-<p><strong>Note:</strong> You have the provide more detailed corrective feedback when the participant answers the same question incorrectly multiple times. Enter this additional feedback in the <code>Corrective Feedback Text 2</code>, <code>Corrective Feedback Text 3</code>, and <code>Corrective Feedback Text 4</code> fields.</p>
+<p><strong>Note:</strong> If you have to provide more detailed corrective feedback when the participant answers the same question incorrectly multiple times, you can enter additional feedback in the <code>Corrective Feedback Text 2</code>, <code>Corrective Feedback Text 3</code>, and <code>Corrective Feedback Text 4</code> fields. The software will show the corrective feedback 2 upon the second time the client answers wrong, and so on.</p>
 </blockquote>
 <ol start="7" style="list-style-type: decimal">
 <li>Save the progress. File &gt; Save</li>
@@ -437,15 +501,15 @@ Figure 3.16: Locate Path
 </p>
 </div>
 <ol start="2" style="list-style-type: decimal">
-<li>Locate the <strong>Inspector</strong> panel and look fo rht <strong>Dynamic Sequence Setup</strong> subsection.</li>
+<li>Locate the <strong>Inspector</strong> panel and look for the <strong>Dynamic Sequence Setup</strong> section.</li>
 </ol>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:step-4-6"></span>
-<img src="images/step_4_6.png" alt="Locate Path" width="50%" />
+<img src="images/step_4_6.png" alt="Set up Question order and timing" width="50%" />
 <p class="caption">
-Figure 3.17: Locate Path
+Figure 3.17: Set up Question order and timing
 </p>
 </div>
-<p>You will see <strong>Question Canvases</strong> and <strong>Pause At</strong>. The table bellow provides a detailes description of each.</p>
+<p>You will see two different panels. The <strong>Question Canvases</strong> and <strong>Pause At</strong>. The table bellow provides a description of each.</p>
 <table class="apa-table">
 <thead>
 <tr>
@@ -463,7 +527,7 @@ PURPOSE
 QUESTION CANVASES
 </td>
 <td style="text-align:left;width: 70%; ">
-Determines which question appears at each pause. In other words, this list determines the order in which the questions are presented.
+Determines the order in which the questions are presented.
 </td>
 </tr>
 <tr>
@@ -471,7 +535,7 @@ Determines which question appears at each pause. In other words, this list deter
 PAUSE AT
 </td>
 <td style="text-align:left;width: 70%; ">
-Determines the time, in seconds, at which the video pauses to present each question.
+Determines the time in the original video at which the question will be presented.
 </td>
 </tr>
 </tbody>
@@ -479,23 +543,34 @@ Determines the time, in seconds, at which the video pauses to present each quest
 </div>
 <div id="step-4.2-configure-question-canvases" class="section level3 unnumbered hasAnchor">
 <h3>Step 4.2: Configure Question Canvases<a href="create-a-scene.html#step-4.2-configure-question-canvases" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="step-4.2.1-configure-the-questions-order" class="section level4 unnumbered hasAnchor">
+<h4>Step 4.2.1 Configure the Questions Order<a href="create-a-scene.html#step-4.2.1-configure-the-questions-order" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ol style="list-style-type: decimal">
-<li>Drag the questions objects that you have from the <strong><em>Hierarchy</em></strong> panel to the Question Canvases</li>
-<li>Write the time in the video where the questions should appear. Take into account that the numbers are in second, and they should correspond to the seconds in the Video.</li>
+<li><p>Change the number right to <strong>Question Canvases</strong> to the number of questions that the scene will have.</p></li>
+<li><p>Drag the questions objects that you have from the <strong>Hierarchy</strong> panel to the <strong>Question Canvases</strong>. The order in which the question objects (e.g., question_four_multiple_answers) is displayed bellow the panel is the order in which the questions are shown in the video.</p></li>
 </ol>
-<div id="configure-the-pause-times" class="section level4 hasAnchor" number="3.0.0.1">
-<h4><span class="header-section-number">3.0.0.1</span> Configure the Pause Times<a href="create-a-scene.html#configure-the-pause-times" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:step-4-7"></span>
+<img src="images/step_4_7.png" alt="Upload Questions in Scenes" width="75%" />
+<p class="caption">
+Figure 3.18: Upload Questions in Scenes
+</p>
+</div>
+<ol start="2" style="list-style-type: decimal">
+<li>If you have more questions, drag them in their corresponding section.</li>
+</ol>
+</div>
+<div id="step-4.2.2-configure-the-times-in-which-the-questions-will-appear" class="section level4 unnumbered hasAnchor">
+<h4>Step 4.2.2 Configure the Times in which the Questions will Appear<a href="create-a-scene.html#step-4.2.2-configure-the-times-in-which-the-questions-will-appear" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ol style="list-style-type: decimal">
-<li>Set the number of items equal to the number of questions in the scene.</li>
-<li>Enter the video time at which each question should appear.</li>
-<li>Arrange the timestamps in chronological order.</li>
+<li>Change the number right to <strong>Pause At</strong> to the number of questions that the scene will have. The <strong>number should be the same</strong> as the number you wrote in <strong>Question Canvases</strong> !.</li>
+<li>Write the time in the video where the questions should appear. Take into account that the numbers are in second, and they should correspond to the seconds in the Video. If you want the question to appear in the min 2:04 you should write 124.</li>
 </ol>
 <p>For example:</p>
 <table>
 <thead>
 <tr class="header">
 <th align="right">Item</th>
-<th align="right">Pause time</th>
+<th align="right">Will Appear</th>
 </tr>
 </thead>
 <tbody>
@@ -513,16 +588,31 @@ Determines the time, in seconds, at which the video pauses to present each quest
 </tr>
 </tbody>
 </table>
-<p>In this example, the questions will appear at 1:00, 2:00, and 3:00 minutes.</p>
+<p>In this example, there different questions will appear at 1:00, 2:00, and 3:00 minutes. The first and last one are of four multiple answers and the second one is of two multiple answers.</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:step-4-8"></span>
+<img src="images/step_4_8.png" alt="Three questions for Scene" width="75%" />
+<p class="caption">
+Figure 3.19: Three questions for Scene
+</p>
+</div>
 </div>
 </div>
 <div id="step-4.3-verify-that-the-scenes-are-connected" class="section level3 unnumbered hasAnchor">
 <h3>Step 4.3: Verify that the scenes are connected<a href="create-a-scene.html#step-4.3-verify-that-the-scenes-are-connected" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <ol style="list-style-type: decimal">
-<li>Open the scenes in the <strong><em>Project</em></strong> panel <code>ASSETS &gt; 1_SCENES &gt; PROJECT SCENES</code></li>
-<li>Leave the scenes open</li>
-<li>In the <strong><em>Hierarchy</em></strong> panel, in the subsection <strong>Scence Settings</strong>write the name of the scene that will appear after the video ends. If it is the end of the tutorial, write <code>LAST SCENE</code>, so that it connects to the last scene of the project.</li>
+<li>In the <strong>Project panel</strong>, go to <strong>Assets &gt; 1_SCENES &gt; 1_1_PROJECT_SCENES</strong> and double-click the video scene you want to configure.</li>
+<li>In the <strong>Hierarchy</strong>, expand <strong>SCENE START</strong> and select <strong>END_SCREEN</strong>.</li>
+<li>In the *Inspector<strong>, find </strong>End Screen Scene Controller &gt; Scene Settings &gt; Link To Next Scene**.</li>
+<li>In the Link To <strong>Next Scene</strong> field, enter the exact name of the scene that the Next Scene button should open. For the final video scene, enter LAST SCENE.</li>
+<li>Press Ctrl+S to save.</li>
 </ol>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:step-4-9"></span>
+<img src="images/step_4_9.png" alt="Link Scenes" width="100%" />
+<p class="caption">
+Figure 3.20: Link Scenes
+</p>
+</div>
+<p>Expected result: After the destination scene is enabled in the build profile, pressing Next Scene on the video’s end screen opens that scene.</p>
 <hr />
 </div>
 </div>
@@ -537,7 +627,7 @@ Determines the time, in seconds, at which the video pauses to present each quest
 <li>Each question is associated with the correct point in the video.</li>
 </ul>
 <blockquote>
-<p><strong>Warning:</strong> Questions may appear at the wrong times when the order of the question canvases does not match the order of the pause times.</p>
+<p><strong>Warning:</strong> Questions may appear at the wrong times when the order of the question canvases does not match the order of the pause times (Step 4.2)</p>
 </blockquote>
 <hr />
 </div>
@@ -545,65 +635,100 @@ Determines the time, in seconds, at which the video pauses to present each quest
 <h2>Step 6: Edit the Beginning Screen<a href="create-a-scene.html#step-6-edit-the-beginning-screen" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>The beginning screen introduces the training before the video starts.</p>
 <ol style="list-style-type: decimal">
-<li>Locate <strong>BeginSceneCanvas</strong> in the <strong>Hierarchy</strong> panel.</li>
-<li>Expand the canvas to locate its text elements.</li>
-<li>Select the header text.</li>
-<li>In the <strong>Inspector</strong> panel, replace the existing text with the introduction for your training.</li>
-<li>Save the scene.</li>
+<li>In the <strong>Project</strong> panel, double-click on <strong>0_STARTING SCENE</strong></li>
 </ol>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:step-6"></span>
+<img src="images/step_6.png" alt="Find Starting Scene" width="100%" />
+<p class="caption">
+Figure 3.21: Find Starting Scene
+</p>
+</div>
+<ol start="2" style="list-style-type: decimal">
+<li>Locate <strong>BeginSceneCanvas</strong> in the <strong>Hierarchy</strong> panel and expand <strong>Menu</strong> the canvas to locate <strong>Header Text</strong>.</li>
+</ol>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:step-6-1"></span>
+<img src="images/step_6_1.png" alt="Locate Header Text" width="50%" />
+<p class="caption">
+Figure 3.22: Locate Header Text
+</p>
+</div>
+<ol start="4" style="list-style-type: decimal">
+<li>In the <strong>Inspector</strong> panel, find the section <strong>TextMeshPro - Text (UI)</strong> (you might have to scroll down) ], and replace the existing text with the introduction for your training. You can double check the text in the Scene panel</li>
+</ol>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:step-6-2"></span>
+<img src="images/step_6_2.png" alt="Change Training Title" width="100%" />
+<p class="caption">
+Figure 3.23: Change Training Title
+</p>
+</div>
 <p>For example:</p>
 <blockquote>
 <p>Welcome to the caregiver training. In this module, you will observe a caregiver responding to a child during a daily routine.</p>
 </blockquote>
-<p>Keep the introduction:</p>
-<ul>
-<li>Brief</li>
-<li>Easy to read</li>
-<li>Relevant to the video</li>
-<li>Consistent with the purpose of the training module</li>
-</ul>
-<hr />
-</div>
-<div id="step-7-edit-the-end-screen" class="section level2 unnumbered hasAnchor">
-<h2>Step 7: Edit the End Screen<a href="create-a-scene.html#step-7-edit-the-end-screen" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>The end screen determines which scene will open after the current scene is completed.</p>
-<ol style="list-style-type: decimal">
-<li>Locate <strong>End Screen</strong> inside the <strong>SceneStart</strong> prefab.</li>
-<li>Select the field that identifies the next scene.</li>
-<li>Enter the exact name of the scene that should open next.</li>
-</ol>
-<p>For example:</p>
-<pre class="text"><code>02 Demonstration</code></pre>
 <blockquote>
-<p><strong>Important:</strong> The scene name must be written exactly as it appears in the Unity scene list. Differences in capitalization, spacing, or punctuation may prevent Unity from opening the scene.</p>
+<p><strong>Tip:</strong> Keep the introduction brief, easy to read, relevant and consistent with the purpose of the training.</p>
 </blockquote>
-<div id="configure-the-final-scene" class="section level3 hasAnchor" number="3.0.1">
-<h3><span class="header-section-number">3.0.1</span> Configure the Final Scene<a href="create-a-scene.html#configure-the-final-scene" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>When the current scene is the final scene in the training, enter:</p>
-<pre class="text"><code>Last Scene</code></pre>
-<p>Make sure that <code>Last Scene</code> matches the text expected by the project template exactly.</p>
-<hr />
-</div>
-</div>
-<div id="step-8-add-the-scene-to-the-build-profile" class="section level2 hasAnchor" number="3.1">
-<h2><span class="header-section-number">3.1</span> Step 8: Add the Scene to the Build Profile<a href="create-a-scene.html#step-8-add-the-scene-to-the-build-profile" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Every new scene must be added to the Unity build profile.</p>
-<ol style="list-style-type: decimal">
-<li>Open the scene that you want to add.</li>
-<li>Select <strong>File</strong> from the Unity menu.</li>
-<li>Select <strong>Build Profiles</strong>.</li>
-<li>Click <strong>Open Scene List</strong>.</li>
-<li>Click <strong>Add Open Scenes</strong>.</li>
-<li>Confirm that the scene appears in the scene list.</li>
+<ol start="5" style="list-style-type: decimal">
+<li>Save the scene.</li>
 </ol>
-<p>Repeat this process whenever you create a new scene.</p>
+<hr />
+</div>
+<div id="step-7-check-the-end-screen" class="section level2 unnumbered hasAnchor">
+<h2>Step 7: Check the End Screen<a href="create-a-scene.html#step-7-check-the-end-screen" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Check the destination you set in Step 4.3 for each video scene.</p>
+<ol style="list-style-type: decimal">
+<li>In the <strong>Project</strong> panel, double-click the video scene you want to check.</li>
+<li>In the <strong>Hierarchy</strong>, expand <code>SCENE START</code> and select <code>END_SCREEN</code>.</li>
+<li>In the <strong>Inspector</strong>, find <strong>End Screen Scene Controller &gt; Scene Settings &gt; Link To Next Scene</strong>. Enter the exact name of the next scene, without the <code>.unity</code> extension. For the final video scene, enter <code>LAST SCENE</code>.</li>
+<li>If you made a change, press <strong>Ctrl+S</strong> to save.</li>
+</ol>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:step-7-end-screen"></span>
+<img src="images/step-7-end-screen.png" alt="Select END_SCREEN, find Scene Settings, and check Link To Next Scene" width="100%" />
+<p class="caption">
+Figure 3.24: Select END_SCREEN, find Scene Settings, and check Link To Next Scene
+</p>
+</div>
+<div class="step-result">
+<p><strong>✓ Expected result</strong></p>
+<p><strong>Link To Next Scene</strong> displays the destination. The learner presses the end-screen button to open it. The button reads <strong>Continue</strong> in this example.</p>
+</div>
+<hr />
+</div>
+<div id="step-8-add-the-scene-to-the-build-profile" class="section level2 unnumbered hasAnchor">
+<h2>Step 8: Add the Scene to the Build Profile<a href="create-a-scene.html#step-8-add-the-scene-to-the-build-profile" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Add each new video scene to the <strong>Scene List</strong> used by your active build profile.</p>
+<ol style="list-style-type: decimal">
+<li>In the <strong>Project</strong> panel, double-click the new video scene to open it.</li>
+<li>Go to <strong>File &gt; Build Profiles</strong>.</li>
+<li>Select the active platform or profile and click <strong>Open Scene List</strong>.</li>
+</ol>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:step-8-open-scene-list"></span>
+<img src="images/step-8-open-scene-list.png" alt="Click Open Scene List in Build Profiles" width="90%" />
+<p class="caption">
+Figure 3.25: Click Open Scene List in Build Profiles
+</p>
+</div>
+<ol start="4" style="list-style-type: decimal">
+<li>If the scene is missing from the list, click <strong>Add Open Scenes</strong>.</li>
+<li>Confirm that its checkbox is selected. Check that <code>0_STARTING SCENE</code>, every video scene used in your training, and <code>LAST SCENE</code> are enabled.</li>
+</ol>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:step-8-enabled-scenes"></span>
+<img src="images/step-8-enabled-scenes.png" alt="Use Add Open Scenes, then check that each required scene is enabled" width="90%" />
+<p class="caption">
+Figure 3.26: Use Add Open Scenes, then check that each required scene is enabled
+</p>
+</div>
+<div class="step-result">
+<p><strong>✓ Expected result</strong></p>
+<p>Every scene in the training flow has a checked box in the active <strong>Scene List</strong>. The example shows the three enabled template scenes.</p>
+</div>
 <blockquote>
-<p><strong>Important:</strong> A scene that is not included in the build profile may work inside the Unity Editor but fail to open in the completed application.</p>
+<p><strong>Test the connection:</strong> Close <strong>Build Profiles</strong>, open <code>0_STARTING SCENE</code>, and enter <strong>Play</strong> mode. Follow the training and press the end-screen button after each video. Confirm that each button opens the intended scene and that the final video leads to <code>LAST SCENE</code>.</p>
 </blockquote>
 <hr />
 </div>
-<div id="step-9-save-the-scene" class="section level2 hasAnchor" number="3.2">
-<h2><span class="header-section-number">3.2</span> Step 9: Save the Scene<a href="create-a-scene.html#step-9-save-the-scene" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="step-9-save-the-scene" class="section level2 unnumbered hasAnchor">
+<h2>Step 9: Save the Scene<a href="create-a-scene.html#step-9-save-the-scene" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Save the scene after making any changes by pressing:</p>
 <pre class="text"><code>Ctrl + S</code></pre>
 <p>You should save the scene after:</p>
@@ -617,8 +742,8 @@ Determines the time, in seconds, at which the video pauses to present each quest
 </ul>
 <hr />
 </div>
-<div id="scene-configuration-checklist" class="section level2 hasAnchor" number="3.3">
-<h2><span class="header-section-number">3.3</span> Scene Configuration Checklist<a href="create-a-scene.html#scene-configuration-checklist" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="step-10---scene-configuration-checklist" class="section level2 unnumbered hasAnchor">
+<h2>Step 10 - Scene Configuration Checklist<a href="create-a-scene.html#step-10---scene-configuration-checklist" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Before moving to the next scene, confirm that:</p>
 <ul class="task-list">
 <li><label><input type="checkbox" />The scene has a clear and unique name.</label></li>

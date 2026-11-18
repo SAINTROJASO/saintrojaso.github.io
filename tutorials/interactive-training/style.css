@@ -1,280 +1,264 @@
-/* Styles the caution, important, note, tip, and warning callout boxes */
-.rmdcaution, .rmdimportant, .rmdnote, .rmdtip, .rmdwarning {
-  padding: 1em 1em 1em 4em;
-  margin-bottom: 10px;
-  background: #f5f5f5 5px center/3em no-repeat;
+/* ========================================================= GUIDED TUTORIAL STEP CARDS ========================================================= */
+
+/* Main color palette for the guided tutorial */
+:root {
+  --tutorial-accent: #365d88;
+  --tutorial-accent-light: #e9eff7;
+  --tutorial-border: #dfe3e8;
+  --tutorial-background: #ffffff;
+  --tutorial-secondary: #f5f7fa;
+  --tutorial-text: #293747;
+  --tutorial-muted: #64748b;
+  --tutorial-success: #376b55;
 }
 
-/* Adds the caution icon */
-.rmdcaution {
-  background-image: url("../images/caution.png");
-}
-
-/* Adds the important icon */
-.rmdimportant {
-  background-image: url("../images/important.png");
-}
-
-/* Adds the note icon */
-.rmdnote {
-  background-image: url("../images/note.png");
-}
-
-/* Adds the tip icon */
-.rmdtip {
-  background-image: url("../images/tip.png");
-}
-
-/* Adds the warning icon */
-.rmdwarning {
-  background-image: url("../images/warning.png");
-}
-
-/* Styles image and figure captions */
-p.caption {
-  color: #777;
-  margin-top: 10px;
-}
-
-/* Allows inline code to wrap with the surrounding paragraph */
-p code {
-  white-space: inherit;
-}
-
-/* Controls word wrapping inside code blocks */
-pre {
-  word-break: normal;
-  word-wrap: normal;
-}
-
-/* Makes code inside code blocks follow the wrapping settings above */
-pre code {
-  white-space: inherit;
-}
-
-/* Right-aligns paragraphs assigned the flushright class */
-p.flushright {
-  text-align: right;
-}
-
-/* Right-aligns the last paragraph inside a block quote */
-blockquote > p:last-child {
-  text-align: right;
-}
-
-/* Keeps the first paragraph of a block quote normally aligned */
-blockquote > p:first-child {
-  text-align: inherit;
-}
-
-/* Styles the numbers shown before section headings */
-.header-section-number {
-  padding-right: .2em;
-  font-weight: 500;
-}
-
-/* Adds a thick underline beneath chapter numbers */
-.level1 .header-section-number {
-  display: inline-block;
-  border-bottom: 3px solid;
-}
-
-/* Adds a thin line beneath chapter headings */
-.level1 h1 {
-  border-bottom: 1px solid;
-}
-
-/* Uses normal font weight for all headings */
-h1, h2, h3, h4, h5, h6 {
-  font-weight: normal;
-}
-
-/* Makes the main book title bold */
-h1.title {
-  font-weight: 700;
-}
-
-/* Displays text assigned the smallcaps class in small capital letters */
-.smallcaps {
-  font-variant: small-caps;
-}
-
-/* Controls the thickness of bold text within the book content */
-.book .book-body .page-wrapper .page-inner section.normal strong {
-  font-weight: 600;
-}
-
-/* Makes the chapter content wider and reduces the side margins */
-.book .book-body .page-wrapper .page-inner,
-.book .book-body .page-wrapper .page-inner section.normal {
-  max-width: 1200px !important;
-  width: 100% !important;
-  box-sizing: border-box;
-}
-
-.book .book-body .page-wrapper .page-inner {
-  padding-left: 40px !important;
-  padding-right: 40px !important;
-}
-
-/* ========================================================= APA-STYLE TABLES ========================================================= */
-
-.apa-table {
-  width: 100%;
-  margin-top: 0.5rem;
-  margin-bottom: 1.5rem;
-  border-collapse: collapse;
-  border-top: 2px solid #333 !important;
-  border-bottom: 2px solid #333 !important;
-}
-
-/* Line below the column headings */
-.apa-table thead {
-  border-bottom: 1px solid #333 !important;
-}
-
-/* Removes all other table borders */
-.apa-table th,
-.apa-table td,
-.apa-table tr {
-  border: none !important;
-}
-
-/* Styles the column headings */
-.apa-table th {
-  padding: 0.65rem 0.75rem;
-  text-align: left;
-  vertical-align: bottom;
-  font-weight: 600;
-  background-color: transparent !important;
-}
-
-/* Styles the table body */
-.apa-table td {
-  padding: 0.65rem 0.75rem;
-  text-align: left;
-  vertical-align: top;
-  background-color: transparent !important;
-}
-
-/* Removes alternating row shading */
-.apa-table tbody tr:nth-child(odd),
-.apa-table tbody tr:nth-child(even) {
-  background-color: transparent !important;
-}
-
-/* Makes the first column uppercase but not bold */
-.apa-table tbody td:first-child {
-  text-transform: uppercase;
-  font-weight: normal !important;
-}
-
-/* Allows inline code to wrap */
-.apa-table code {
-  white-space: normal;
-  overflow-wrap: anywhere;
-  word-break: normal;
-}
-
----
-/* ========================================================= Simple training-plan checklist ========================================================= */
-
-.simple-planner {
-  margin: 1.5rem 0;
-  padding: 1.5rem;
-  border: 1px solid #d8dde3;
+/* Styles the individual step cards */
+.step-card {
+  margin: 24px 0;
+  padding: 24px;
+  border: 1px solid var(--tutorial-border);
   border-radius: 8px;
-  background: #ffffff;
+  background: var(--tutorial-background);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
 }
 
-.simple-planner label {
-  display: block;
-  margin: 1rem 0;
-}
-
-.simple-planner input[type="text"],
-.simple-planner input[type="number"],
-.simple-planner textarea,
-.simple-planner select {
-  display: block;
-  width: 100%;
-  margin-top: 0.4rem;
-  padding: 0.65rem;
-  font-family: inherit;
-  font-size: 1rem;
-  border: 1px solid #b8c0c8;
-  border-radius: 5px;
-  box-sizing: border-box;
-}
-
-.simple-planner textarea {
-  resize: vertical;
-}
-
-.simple-planner .check-item {
+/* Aligns the step number and title */
+.step-header {
   display: flex;
-  align-items: flex-start;
-  gap: 0.65rem;
-  margin: 0.7rem 0;
-  font-weight: normal;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 18px;
 }
 
-.simple-planner .check-item input {
-  margin-top: 0.25rem;
+/* Styles the step number */
+.step-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 42px;
+  height: 42px;
+  padding: 0 8px;
+  border-radius: 6px;
+  background: var(--tutorial-accent-light);
+  color: var(--tutorial-accent);
+  font-size: 16px;
+  font-weight: 600;
+  flex-shrink: 0;
 }
 
-.simple-planner hr {
-  margin: 2rem 0;
-  border: 0;
-  border-top: 1px solid #d8dde3;
+/* Styles the title of each substep */
+.step-title {
+  font-size: 19px;
+  font-weight: 600;
+  color: var(--tutorial-text);
 }
 
-.print-instruction {
-  margin-top: 2rem;
-  padding: 1rem;
-  background: #f4f6f8;
-  border-left: 4px solid #008cff;
+/* Styles navigation paths and menu locations */
+.step-path {
+  margin: 16px 0;
+  padding: 12px 16px;
+  border-radius: 5px;
+  background: var(--tutorial-secondary);
+  color: var(--tutorial-text);
+  font-family: monospace;
+  font-size: 14px;
+  overflow-wrap: anywhere;
 }
 
+/* Styles the collapsible screenshot container */
+.step-screenshot {
+  margin: 18px 0;
+  border: 1px solid var(--tutorial-border);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+/* Styles the clickable screenshot header */
+.step-screenshot summary {
+  padding: 12px 16px;
+  background: var(--tutorial-secondary);
+  color: var(--tutorial-muted);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.2s ease;
+}
+
+/* Changes the screenshot header when hovered */
+.step-screenshot summary:hover {
+  background: var(--tutorial-accent-light);
+  color: var(--tutorial-accent);
+}
+
+/* Changes the header when the screenshot is expanded */
+.step-screenshot[open] summary {
+  border-bottom: 1px solid var(--tutorial-border);
+}
+
+/* Centers the screenshot within its container */
+.screenshot-content {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Controls screenshot dimensions */
+.screenshot-content img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+
+/* Styles screenshot captions */
+.screenshot-caption {
+  margin-top: 12px;
+  color: var(--tutorial-muted);
+  font-size: 13px;
+  text-align: center;
+}
+
+/* Styles the expected result section */
+.step-result {
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid var(--tutorial-border);
+  color: var(--tutorial-text);
+  font-size: 14px;
+}
+
+/* Highlights only the expected result heading */
+.step-result > p:first-child > strong {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--tutorial-success);
+}
+
+/* Preserves normal bold formatting within the description */
+.step-result > p:not(:first-child) strong {
+  display: inline;
+  color: inherit;
+  font-weight: 600;
+}
+
+/* Styles tips and important notes within steps */
+.step-tip,
+.step-important {
+  margin: 16px 0;
+  padding: 14px 18px;
+  border-left: 3px solid var(--tutorial-accent);
+  border-radius: 0 5px 5px 0;
+  background: var(--tutorial-secondary);
+  color: var(--tutorial-text);
+}
+
+/* Highlights tip and important labels */
+.step-tip strong,
+.step-important strong {
+  color: var(--tutorial-accent);
+}
+
+/* Adjusts step cards for smaller screens */
+@media (max-width: 600px) {
+
+  .step-card {
+    padding: 16px;
+  }
+
+  .step-title {
+    font-size: 17px;
+  }
+
+  .step-header {
+    gap: 10px;
+  }
+
+  .screenshot-content {
+    padding: 10px;
+  }
+
+  .screenshot-content img {
+    width: 100% !important;
+  }
+}
+
+/* Preserves the step cards when printing */
 @media print {
-  .book-summary,
-  .book-header,
-  .navigation,
-  .print-instruction {
-    display: none !important;
+
+  .step-card {
+    box-shadow: none;
+    break-inside: avoid;
   }
 
-  .book-body {
-    left: 0 !important;
+  .step-screenshot summary {
+    display: none;
   }
 
-  .page-wrapper {
-    margin-left: 0 !important;
+  .step-screenshot:not([open]) > .screenshot-content {
+    display: block;
+    content-visibility: visible;
   }
+}
 
-  .page-inner {
-    max-width: none !important;
-    padding: 0 !important;
-  }
+/* ========================================================= HYBRID R MARKDOWN ADJUSTMENTS ========================================================= */
 
-  .simple-planner {
-    padding: 0;
-    border: 0;
-  }
+/* Aligns the step number and title inside Markdown paragraphs */
+.step-header > p {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 0 !important;
+}
 
-  .simple-planner input[type="text"],
-  .simple-planner input[type="number"],
-  .simple-planner textarea,
-  .simple-planner select {
-    color: #000000;
-    background: transparent;
-    border: 0;
-    border-bottom: 1px solid #555555;
-    border-radius: 0;
-  }
+/* Removes unnecessary spacing inside navigation paths */
+.step-path > p {
+  margin: 0 !important;
+}
 
-  .simple-planner h3,
-  .simple-planner h4 {
-    break-after: avoid;
-  }
+/* Removes the default inline code background inside navigation paths */
+.step-path code {
+  padding: 0 !important;
+  background: transparent !important;
+  color: inherit !important;
+  font-size: inherit !important;
+}
+
+/* Adjusts paragraph spacing inside expected results */
+.step-result > p {
+  margin: 0 0 5px 0 !important;
+}
+
+/* Adjusts paragraph spacing inside callout boxes */
+.step-tip > p,
+.step-important > p {
+  margin: 0 !important;
+}
+
+/* Removes unnecessary spacing around figures */
+.screenshot-content .figure {
+  margin: 0 !important;
+}
+
+/* Styles figure captions inside screenshots */
+.screenshot-content p.caption {
+  font-size: 13px;
+  color: var(--tutorial-muted);
+  text-align: center;
+  margin-top: 12px;
+}
+
+/* Preserves inline bold formatting inside expected results */
+.step-result strong {
+  display: inline !important;
+  color: inherit !important;
+  margin: 0 !important;
+}
+
+/* Styles only the expected result label */
+.step-result-label {
+  display: block;
+  color: var(--tutorial-success);
+  font-weight: 600;
+  margin-bottom: 8px;
 }
