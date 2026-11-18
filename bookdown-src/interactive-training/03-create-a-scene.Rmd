@@ -51,7 +51,7 @@ For example:
 03_video_step_2.1
 ```
 
-5. Make sure that the videos are uploaded. They should appear in the right window of the **Project** panel. 
+5. Make sure that the videos are uploaded. They should appear when clicking the folder **2_PROJECT VIDEOS** in the  **Project** panel. 
 
 ```{r}
 #| label: step-1-3
@@ -112,7 +112,7 @@ For example:
 02_scene_demonstration
 03_scene_practice
 ```
-4. To write the instructions of the training (e.g., In this training you will be asked to complete ...) locate the **Hierarchy** panel and open the path: 
+4. To write the content of the training instructions (e.g., In this training you will be asked to complete ...) locate the **Hierarchy** panel and open the path: 
  
 <div align="center">
 `SCENE START > TRAINING_INTRODUCTION`
@@ -129,7 +129,7 @@ knitr::include_graphics("images/step_2_3.png")
 ```
 
 
-5. Locate the **Inspector** panel (at the right of the **Hierarchy** panel), and write the instructions in the text box below the ***Header Text*** title.
+5. Locate the **Inspector** panel (at the right of the **Hierarchy** panel), and write the content of the instructions in the text box below the ***Header Text*** title.
 
 ```{r}
 #| label: step-2-4
@@ -383,7 +383,7 @@ kable(
 
 ### Step 4.2: Configure Question Canvases {-}
 
-3. Drag the questions objects that you have from the ***Hierarchy*** panel to the Question Canvases
+1. Drag the questions objects that you have from the ***Hierarchy*** panel to the Question Canvases
 4. Write the time in the video where the questions should appear. Take into account that the numbers are in second, and they should correspond to the seconds in the Video. 
 
 
