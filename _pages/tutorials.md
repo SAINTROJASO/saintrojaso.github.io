@@ -6,16 +6,12 @@ author_profile: true
 ---
 
 Welcome to my collection of tutorials. 
-I will try my best to write easy and complete learning tutorials.
+I will try my best to write easy and complete learning tutorials for a variety of topics.
 
 ## Statistics
 
-- [Open Statistics Tutorial](/tutorials/statistics/)
+- [Statistical Distributions](/tutorials/statistics/)
 
-## Interactive Training
+## Create your own Interactive Training
 
 - [Open Interactive Training Tutorial](/tutorials/interactive-training/)
-
-## How to Model
-
-- Coming soon
