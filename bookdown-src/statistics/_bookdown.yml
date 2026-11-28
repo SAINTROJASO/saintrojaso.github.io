@@ -3,7 +3,7 @@ delete_merged_file: true
 output_dir: "../../tutorials/statistics"
 rmd_files:
   - "index.Rmd"
-  - "01-foundations.Rmd"
+  - "01-normal-distribution.Rmd"
   - "02-probability.Rmd"
   - "03-regression.Rmd"
   - "00-homework.Rmd"

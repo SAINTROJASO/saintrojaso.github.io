@@ -1,0 +1,5 @@
+# Normal Distributions
+
+## What are normal distributions ?
+
+Normal distributions are 
