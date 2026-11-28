@@ -4,8 +4,4 @@ author: "Santiago Rojas"
 site: bookdown::bookdown_site
 ---
 
-# Welcome {-}
-
-Welcome to my Statistics tutorial.
-
-This tutorial includes foundations, probability, and regression.
+Bla bla bla, let's get to the point. 
